@@ -1,1 +1,322 @@
-[]
+﻿[
+  {
+    "subject": "PC",
+    "mode": "mini",
+    "score_correct": 9,
+    "total_questions": 10,
+    "score_percent": 90.0,
+    "answers": [
+      {
+        "id": 2,
+        "question": "Trouver : Pour une onde periodique de frequence f=7 Hz, la periode T vaut :",
+        "options": [
+          "7",
+          "3.5",
+          "0.286",
+          "0.143"
+        ],
+        "correct": "D",
+        "explanation": "T=1/f.",
+        "user_answer": "D",
+        "response_time_sec": 7.62,
+        "is_correct": true
+      },
+      {
+        "id": 5,
+        "question": "Calculer : La relation entre defaut de masse et energie de liaison est :",
+        "options": [
+          "E=dm/c^2",
+          "E=dm*c",
+          "E=dm*c^2",
+          "E=dm+mc^2"
+        ],
+        "correct": "C",
+        "explanation": "Relation d'Einstein: E=dm c^2.",
+        "user_answer": "C",
+        "response_time_sec": 13.13,
+        "is_correct": true
+      },
+      {
+        "id": 11,
+        "question": "Déterminer : Une reaction reversible est caracterisee par :",
+        "options": [
+          "Deux sens direct et inverse",
+          "Un seul sens",
+          "Une vitesse nulle",
+          "Absence de reactifs"
+        ],
+        "correct": "A",
+        "explanation": "La reaction peut evoluer dans les deux sens.",
+        "user_answer": "A",
+        "response_time_sec": 11.17,
+        "is_correct": true
+      },
+      {
+        "id": 16,
+        "question": "Déterminer : Sans frottement de l'air, la trajectoire d'un projectile est :",
+        "options": [
+          "Circulaire",
+          "Parabolique",
+          "Rectiligne uniforme",
+          "Exponentielle"
+        ],
+        "correct": "B",
+        "explanation": "Sous gravite uniforme, x(t) est affine et y(t) quadratique.",
+        "user_answer": "B",
+        "response_time_sec": 6.57,
+        "is_correct": true
+      },
+      {
+        "id": 36,
+        "question": "Déterminer : Pour un solide de masse 2 kg et acceleration 1 m/s^2, la resultante vaut :",
+        "options": [
+          "3 N",
+          "2 N",
+          "2.0 N",
+          "1 N"
+        ],
+        "correct": "B",
+        "explanation": "Deuxieme loi de Newton: somme(F)=m.a.",
+        "user_answer": "B",
+        "response_time_sec": 19.75,
+        "is_correct": true
+      },
+      {
+        "id": 45,
+        "question": "Calculer : Une perturbation parcourt 155 m en 1 s. La vitesse de propagation vaut :",
+        "options": [
+          "0.006",
+          "154",
+          "155",
+          "155 (3)"
+        ],
+        "correct": "C",
+        "explanation": "La vitesse de propagation est v=d/t.",
+        "user_answer": "C",
+        "response_time_sec": 9.62,
+        "is_correct": true
+      },
+      {
+        "id": 54,
+        "question": "Quelle est : La vitesse volumique de reaction s'exprime generalement en :",
+        "options": [
+          "J.s^-1",
+          "m.s^-1",
+          "kg.m^-3",
+          "mol.L^-1.s^-1"
+        ],
+        "correct": "D",
+        "explanation": "La vitesse de reaction est une variation de concentration par unite de temps.",
+        "user_answer": "D",
+        "response_time_sec": 11.31,
+        "is_correct": true
+      },
+      {
+        "id": 67,
+        "question": "Trouver : Une perturbation parcourt 177 m en 3 s. La vitesse de propagation vaut :",
+        "options": [
+          "59",
+          "0.017",
+          "531",
+          "174"
+        ],
+        "correct": "A",
+        "explanation": "La vitesse de propagation est v=d/t.",
+        "user_answer": "A",
+        "response_time_sec": 17.42,
+        "is_correct": true
+      },
+      {
+        "id": 81,
+        "question": "Déterminer : En chute libre sans frottements, l'acceleration est :",
+        "options": [
+          "nulle",
+          "variable sinusoidale",
+          "g vers le bas",
+          "horizontale"
+        ],
+        "correct": "C",
+        "explanation": "La seule force est le poids, donc a=g vers le bas.",
+        "user_answer": "D",
+        "response_time_sec": 27.17,
+        "is_correct": false
+      },
+      {
+        "id": 99,
+        "question": "Quelle est : Une reaction reversible est caracterisee par :",
+        "options": [
+          "Deux sens direct et inverse",
+          "Un seul sens",
+          "Une vitesse nulle",
+          "Absence de reactifs"
+        ],
+        "correct": "A",
+        "explanation": "La reaction peut evoluer dans les deux sens.",
+        "user_answer": "A",
+        "response_time_sec": 10.22,
+        "is_correct": true
+      }
+    ],
+    "created_at": "2026-06-02T14:29:48"
+  },
+  {
+    "subject": "Maths",
+    "mode": "mini",
+    "score_correct": 1,
+    "total_questions": 10,
+    "score_percent": 10.0,
+    "answers": [
+      {
+        "id": 10,
+        "question": "Calculer : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 2. Justifier la méthode choisie.",
+        "options": [
+          "y=3e^2t",
+          "y=2+3t",
+          "y=2e^3t",
+          "y=2e^-3t"
+        ],
+        "correct": "C",
+        "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0.",
+        "user_answer": "D",
+        "response_time_sec": 1.23,
+        "is_correct": false
+      },
+      {
+        "id": 22,
+        "question": "Trouver : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 4. Justifier la méthode choisie.",
+        "options": [
+          "y=3e^4t",
+          "y=4+3t",
+          "y=4e^3t",
+          "y=4e^-3t"
+        ],
+        "correct": "C",
+        "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0.",
+        "user_answer": "B",
+        "response_time_sec": 1.45,
+        "is_correct": false
+      },
+      {
+        "id": 45,
+        "question": "Calculer I = ∫_0^1 1 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
+        "options": [
+          "0.333",
+          "0.5",
+          "1",
+          "3"
+        ],
+        "correct": "A",
+        "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3.",
+        "user_answer": "C",
+        "response_time_sec": 0.91,
+        "is_correct": false
+      },
+      {
+        "id": 53,
+        "question": "Donner : Résoudre l'équation ln(x) = 3 dans R^+. Donner la solution et préciser la condition sur x.",
+        "options": [
+          "x=3e",
+          "x=e^3",
+          "x=ln(3)",
+          "x=e^-3"
+        ],
+        "correct": "B",
+        "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0.",
+        "user_answer": "C",
+        "response_time_sec": 1.25,
+        "is_correct": false
+      },
+      {
+        "id": 58,
+        "question": "Donner : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 5. Justifier la méthode choisie.",
+        "options": [
+          "y=3e^5t",
+          "y=5+3t",
+          "y=5e^3t",
+          "y=5e^-3t"
+        ],
+        "correct": "C",
+        "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0.",
+        "user_answer": "B",
+        "response_time_sec": 0.78,
+        "is_correct": false
+      },
+      {
+        "id": 83,
+        "question": "Quelle est : Soient u = (1, 5, 0) et v = (0, 1, 5) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
+        "options": [
+          "5",
+          "26",
+          "7",
+          "5 (3)"
+        ],
+        "correct": "A",
+        "explanation": "u·v = a*0 + b*c + 0*b = b c.",
+        "user_answer": "D",
+        "response_time_sec": 1.45,
+        "is_correct": false
+      },
+      {
+        "id": 88,
+        "question": "Donner une primitive F de la fonction f définie par f(x) = 6x^2 (n entier naturel), en indiquant la constante d'intégration.",
+        "options": [
+          "F(x)=12x^1+C",
+          "F(x)=2x^3+C",
+          "F(x)=6x^3+C",
+          "F(x)=2x^2+C"
+        ],
+        "correct": "B",
+        "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1.",
+        "user_answer": "B",
+        "response_time_sec": 1.62,
+        "is_correct": true
+      },
+      {
+        "id": 91,
+        "question": "Calculer : Résoudre sur R l'équation e^(2x) = 2. Indiquer la méthode utilisée et donner la solution. (variante 50)",
+        "options": [
+          "x=2ln(2)",
+          "x=ln(2)",
+          "x=(1/2)ln(2)",
+          "x=ln(2)/4"
+        ],
+        "correct": "C",
+        "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a).",
+        "user_answer": "B",
+        "response_time_sec": 0.94,
+        "is_correct": false
+      },
+      {
+        "id": 95,
+        "question": "Déterminer : Soient u = (1, 2, 0) et v = (0, 1, 2) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
+        "options": [
+          "2",
+          "5",
+          "4",
+          "2 (3)"
+        ],
+        "correct": "A",
+        "explanation": "u·v = a*0 + b*c + 0*b = b c.",
+        "user_answer": "C",
+        "response_time_sec": 1.18,
+        "is_correct": false
+      },
+      {
+        "id": 98,
+        "question": "Quelle est : Soit f définie par f(x) = 6x^2 - 4x + 1. (a) Déterminer f'(x). (b) Calculer f'(1) et expliquer brièvement la méthode.",
+        "options": [
+          "2",
+          "16",
+          "8 (3)",
+          "8"
+        ],
+        "correct": "D",
+        "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0).",
+        "user_answer": "C",
+        "response_time_sec": 1.11,
+        "is_correct": false
+      }
+    ],
+    "created_at": "2026-06-02T14:42:29"
+  }
+]

@@ -3,7 +3,7 @@
     {
       "id": 1,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (3x+2)/(2x+4).",
+      "question": "Déterminer : Soit la fonction f définie sur R par f(x) = (3x + 2)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.667",
         "1.5",
@@ -11,12 +11,12 @@
         "5"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 2,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=4x^2-3x+1. Calculer f'(3).",
+      "question": "Trouver : Soit f définie par f(x) = 4x^2 - 3x + 1. (a) Déterminer f'(x). (b) Calculer f'(3) et expliquer brièvement la méthode.",
       "options": [
         "9",
         "5",
@@ -24,12 +24,12 @@
         "27"
       ],
       "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 3,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=5. Calculer u6.",
+      "question": "Donner : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 5. Calculer u6 et justifier la formule utilisée.",
       "options": [
         "34",
         "24",
@@ -37,12 +37,12 @@
         "29"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 4,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=5x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 5x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=2.5x^2+C",
         "F(x)=5x^0+C",
@@ -55,7 +55,7 @@
     {
       "id": 5,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Calculer : Résoudre l'équation ln(x) = 3 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
         "x=3e",
         "x=e^3",
@@ -63,12 +63,12 @@
         "x=e^-3"
       ],
       "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 6,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=2+4i. Le module |z| vaut :",
+      "question": "Déterminer : Soit z = 2 + 4i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
         "6",
         "2",
@@ -81,7 +81,7 @@
     {
       "id": 7,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=4.",
+      "question": "Trouver : Résoudre sur R l'équation e^(2x) = 4. Indiquer la méthode utilisée et donner la solution.",
       "options": [
         "x=2ln(4)",
         "x=ln(4)",
@@ -89,12 +89,12 @@
         "x=(1/2)ln(4)"
       ],
       "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 8,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Donner : Soit z = 1 + 4i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
         "1-4i",
         "-1+4i",
@@ -102,12 +102,12 @@
         "-1-4i"
       ],
       "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 9,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 4 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
       "options": [
         "2",
         "1.333",
@@ -115,12 +115,12 @@
         "12"
       ],
       "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 10,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=2 :",
+      "question": "Calculer : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 2. Justifier la méthode choisie.",
       "options": [
         "y=3e^2t",
         "y=2+3t",
@@ -128,12 +128,12 @@
         "y=2e^-3t"
       ],
       "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 11,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,2,0) et v=(0,6,2). Le produit scalaire u.v vaut :",
+      "question": "Déterminer : Soient u = (4, 2, 0) et v = (0, 6, 2) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
         "28",
         "48",
@@ -141,12 +141,12 @@
         "12"
       ],
       "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 12,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Trouver : Une classe compte 5 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
         "10",
         "20",
@@ -154,12 +154,12 @@
         "10 (3)"
       ],
       "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 13,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (8x+4)/(2x+4).",
+      "question": "Donner : Soit la fonction f définie sur R par f(x) = (8x + 4)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.25",
         "4",
@@ -167,12 +167,12 @@
         "10"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 14,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=6x^2-3x+1. Calculer f'(3).",
+      "question": "Quelle est : Soit f définie par f(x) = 6x^2 - 3x + 1. (a) Déterminer f'(x). (b) Calculer f'(3) et expliquer brièvement la méthode.",
       "options": [
         "15",
         "9",
@@ -180,12 +180,12 @@
         "39"
       ],
       "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 15,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=2. Calculer u10.",
+      "question": "Calculer : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 2. Calculer u10 et justifier la formule utilisée.",
       "options": [
         "24",
         "20",
@@ -193,12 +193,12 @@
         "22"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 16,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=3x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 3x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=1.5x^2+C",
         "F(x)=3x^0+C",
@@ -211,7 +211,7 @@
     {
       "id": 17,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Trouver : Résoudre l'équation ln(x) = 3 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
         "x=3e",
         "x=e^3",
@@ -219,12 +219,12 @@
         "x=e^-3"
       ],
       "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 18,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=4+4i. Le module |z| vaut :",
+      "question": "Donner : Soit z = 4 + 4i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
         "8",
         "0",
@@ -237,7 +237,7 @@
     {
       "id": 19,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=6.",
+      "question": "Quelle est : Résoudre sur R l'équation e^(2x) = 6. Indiquer la méthode utilisée et donner la solution.",
       "options": [
         "x=2ln(6)",
         "x=ln(6)",
@@ -245,12 +245,12 @@
         "x=(1/2)ln(6)"
       ],
       "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 20,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Calculer : Soit z = 1 + 4i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
         "1-4i",
         "-1+4i",
@@ -258,25 +258,25 @@
         "-1-4i"
       ],
       "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 21,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 5 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
       "options": [
-        "2",
-        "1.333",
-        "4",
-        "12"
+        "2.5",
+        "5",
+        "1.667",
+        "15"
       ],
-      "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "correct": "C",
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 22,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=4 :",
+      "question": "Trouver : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 4. Justifier la méthode choisie.",
       "options": [
         "y=3e^4t",
         "y=4+3t",
@@ -284,12 +284,12 @@
         "y=4e^-3t"
       ],
       "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 23,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,4,0) et v=(0,6,4). Le produit scalaire u.v vaut :",
+      "question": "Donner : Soient u = (4, 4, 0) et v = (0, 6, 4) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
         "40",
         "14",
@@ -297,12 +297,12 @@
         "24"
       ],
       "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 24,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Quelle est : Une classe compte 5 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
         "10",
         "20",
@@ -310,12 +310,12 @@
         "10 (3)"
       ],
       "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 25,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (6x+1)/(2x+4).",
+      "question": "Calculer : Soit la fonction f définie sur R par f(x) = (6x + 1)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.333",
         "3",
@@ -323,12 +323,12 @@
         "8"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 26,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=3x^2-3x+1. Calculer f'(3).",
+      "question": "Déterminer : Soit f définie par f(x) = 3x^2 - 3x + 1. (a) Déterminer f'(x). (b) Calculer f'(3) et expliquer brièvement la méthode.",
       "options": [
         "6",
         "3",
@@ -336,12 +336,12 @@
         "21"
       ],
       "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 27,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=4. Calculer u6.",
+      "question": "Trouver : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 4. Calculer u6 et justifier la formule utilisée.",
       "options": [
         "28",
         "20",
@@ -349,12 +349,12 @@
         "24"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 28,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=1x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 1x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=0.5x^2+C",
         "F(x)=1x^0+C",
@@ -367,7 +367,7 @@
     {
       "id": 29,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Quelle est : Résoudre l'équation ln(x) = 3 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
         "x=3e",
         "x=e^3",
@@ -375,12 +375,12 @@
         "x=e^-3"
       ],
       "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 30,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=1+4i. Le module |z| vaut :",
+      "question": "Calculer : Soit z = 1 + 4i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
         "5",
         "3",
@@ -393,7 +393,7 @@
     {
       "id": 31,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=3.",
+      "question": "Déterminer : Résoudre sur R l'équation e^(2x) = 3. Indiquer la méthode utilisée et donner la solution.",
       "options": [
         "x=2ln(3)",
         "x=ln(3)",
@@ -401,12 +401,12 @@
         "x=(1/2)ln(3)"
       ],
       "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 32,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Trouver : Soit z = 1 + 4i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
         "1-4i",
         "-1+4i",
@@ -414,25 +414,25 @@
         "-1-4i"
       ],
       "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 33,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 6 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
       "options": [
-        "2",
-        "1.333",
-        "4",
-        "12"
+        "3",
+        "6",
+        "18",
+        "2"
       ],
-      "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "correct": "D",
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 34,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=6 :",
+      "question": "Quelle est : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 6. Justifier la méthode choisie.",
       "options": [
         "y=3e^6t",
         "y=6+3t",
@@ -440,12 +440,12 @@
         "y=6e^-3t"
       ],
       "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 35,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,1,0) et v=(0,6,1). Le produit scalaire u.v vaut :",
+      "question": "Calculer : Soient u = (4, 1, 0) et v = (0, 6, 1) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
         "25",
         "11",
@@ -453,12 +453,12 @@
         "6"
       ],
       "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 36,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Déterminer : Une classe compte 5 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
         "10",
         "20",
@@ -466,12 +466,12 @@
         "10 (3)"
       ],
       "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 37,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (4x+3)/(2x+4).",
+      "question": "Trouver : Soit la fonction f définie sur R par f(x) = (4x + 3)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.5",
         "2",
@@ -479,12 +479,12 @@
         "6"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 38,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=5x^2-3x+1. Calculer f'(3).",
+      "question": "Donner : Soit f définie par f(x) = 5x^2 - 3x + 1. (a) Déterminer f'(x). (b) Calculer f'(3) et expliquer brièvement la méthode.",
       "options": [
         "12",
         "7",
@@ -492,12 +492,12 @@
         "33"
       ],
       "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 39,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=6. Calculer u10.",
+      "question": "Quelle est : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 6. Calculer u10 et justifier la formule utilisée.",
       "options": [
         "64",
         "52",
@@ -505,12 +505,12 @@
         "58"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 40,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=6x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 6x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=3x^2+C",
         "F(x)=6x^0+C",
@@ -523,7 +523,7 @@
     {
       "id": 41,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Déterminer : Résoudre l'équation ln(x) = 3 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
         "x=3e",
         "x=e^3",
@@ -531,12 +531,12 @@
         "x=e^-3"
       ],
       "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 42,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=3+4i. Le module |z| vaut :",
+      "question": "Trouver : Soit z = 3 + 4i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
         "7",
         "1",
@@ -549,7 +549,7 @@
     {
       "id": 43,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=5.",
+      "question": "Donner : Résoudre sur R l'équation e^(2x) = 5. Indiquer la méthode utilisée et donner la solution.",
       "options": [
         "x=2ln(5)",
         "x=ln(5)",
@@ -557,12 +557,12 @@
         "x=(1/2)ln(5)"
       ],
       "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 44,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Quelle est : Soit z = 1 + 4i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
         "1-4i",
         "-1+4i",
@@ -570,25 +570,25 @@
         "-1-4i"
       ],
       "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 45,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 1 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
       "options": [
-        "2",
-        "1.333",
-        "4",
-        "12"
+        "0.333",
+        "0.5",
+        "1",
+        "3"
       ],
-      "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "correct": "A",
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 46,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=3 :",
+      "question": "Déterminer : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 3. Justifier la méthode choisie.",
       "options": [
         "y=3+3t",
         "y=3e^-3t",
@@ -596,12 +596,12 @@
         "y=3e^3t (3)"
       ],
       "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 47,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,3,0) et v=(0,6,3). Le produit scalaire u.v vaut :",
+      "question": "Trouver : Soient u = (4, 3, 0) et v = (0, 6, 3) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
         "33",
         "13",
@@ -609,12 +609,12 @@
         "18"
       ],
       "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 48,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Donner : Une classe compte 5 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
         "10",
         "20",
@@ -622,12 +622,12 @@
         "10 (3)"
       ],
       "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 49,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (2x+5)/(2x+4).",
+      "question": "Quelle est : Soit la fonction f définie sur R par f(x) = (2x + 5)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "1.167",
         "1",
@@ -635,12 +635,12 @@
         "1 (3)"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 50,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=2x^2-3x+1. Calculer f'(3).",
+      "question": "Calculer : Soit f définie par f(x) = 2x^2 - 3x + 1. (a) Déterminer f'(x). (b) Calculer f'(3) et expliquer brièvement la méthode.",
       "options": [
         "3",
         "1",
@@ -648,12 +648,12 @@
         "15"
       ],
       "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 51,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=3. Calculer u6.",
+      "question": "Déterminer : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 3. Calculer u6 et justifier la formule utilisée.",
       "options": [
         "22",
         "16",
@@ -661,12 +661,12 @@
         "19"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 52,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=4x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 4x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=2x^2+C",
         "F(x)=4x^0+C",
@@ -679,7 +679,7 @@
     {
       "id": 53,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Donner : Résoudre l'équation ln(x) = 3 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
         "x=3e",
         "x=e^3",
@@ -687,12 +687,12 @@
         "x=e^-3"
       ],
       "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 54,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=5+4i. Le module |z| vaut :",
+      "question": "Quelle est : Soit z = 5 + 4i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
         "9",
         "1",
@@ -705,7 +705,7 @@
     {
       "id": 55,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=2.",
+      "question": "Calculer : Résoudre sur R l'équation e^(2x) = 2. Indiquer la méthode utilisée et donner la solution.",
       "options": [
         "x=2ln(2)",
         "x=ln(2)",
@@ -713,12 +713,12 @@
         "x=(1/2)ln(2)"
       ],
       "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 56,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Déterminer : Soit z = 1 + 4i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
         "1-4i",
         "-1+4i",
@@ -726,25 +726,25 @@
         "-1-4i"
       ],
       "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 57,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 2 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
       "options": [
+        "1",
+        "0.667",
         "2",
-        "1.333",
-        "4",
-        "12"
+        "6"
       ],
       "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 58,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=5 :",
+      "question": "Donner : Résoudre l'équation différentielle y' = 3 y et trouver la solution vérifiant y(0) = 5. Justifier la méthode choisie.",
       "options": [
         "y=3e^5t",
         "y=5+3t",
@@ -752,12 +752,12 @@
         "y=5e^-3t"
       ],
       "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 59,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,5,0) et v=(0,6,5). Le produit scalaire u.v vaut :",
+      "question": "Quelle est : Soient u = (4, 5, 0) et v = (0, 6, 5) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
         "49",
         "15",
@@ -765,12 +765,12 @@
         "30"
       ],
       "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 60,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Calculer : Une classe compte 5 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
         "10",
         "20",
@@ -778,12 +778,12 @@
         "10 (3)"
       ],
       "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 61,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (7x+2)/(2x+4).",
+      "question": "Déterminer : Soit la fonction f définie sur R par f(x) = (7x + 2)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.286",
         "3.5",
@@ -791,25 +791,25 @@
         "9"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 62,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=4x^2-3x+1. Calculer f'(3).",
+      "question": "Donner : Soit f définie par f(x) = 5x^2 - 4x + 1. (a) Déterminer f'(x). (b) Calculer f'(1) et expliquer brièvement la méthode.",
       "options": [
-        "9",
-        "5",
-        "21",
-        "27"
+        "1",
+        "14",
+        "6 (3)",
+        "6"
       ],
-      "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "correct": "D",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 63,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=5. Calculer u10.",
+      "question": "Donner : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 5. Calculer u10 et justifier la formule utilisée.",
       "options": [
         "54",
         "44",
@@ -817,12 +817,12 @@
         "49"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 64,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=2x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 2x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=1x^2+C",
         "F(x)=2x^0+C",
@@ -835,111 +835,111 @@
     {
       "id": 65,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Déterminer : Résoudre l'équation ln(x) = 4 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
-        "x=3e",
-        "x=e^3",
-        "x=ln(3)",
-        "x=e^-3"
+        "x=4e",
+        "x=ln(4)",
+        "x=e^4",
+        "x=e^-4"
       ],
-      "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "correct": "C",
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 66,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=2+4i. Le module |z| vaut :",
+      "question": "Trouver : Soit z = 3 + 5i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
-        "6",
+        "8",
         "2",
-        "4.472",
-        "8"
+        "15",
+        "5.831"
       ],
-      "correct": "C",
+      "correct": "D",
       "explanation": "|a+bi| = sqrt(a^2+b^2)."
     },
     {
       "id": 67,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=4.",
+      "question": "Déterminer : Résoudre sur R l'équation e^(2x) = 3. Indiquer la méthode utilisée et donner la solution. (variante 50)",
       "options": [
-        "x=2ln(4)",
-        "x=ln(4)",
-        "x=ln(4)/4",
-        "x=(1/2)ln(4)"
+        "x=2ln(3)",
+        "x=ln(3)",
+        "x=(1/2)ln(3)",
+        "x=ln(3)/4"
       ],
-      "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "correct": "C",
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 68,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Quelle est : Soit z = 2 + 2i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
-        "1-4i",
-        "-1+4i",
-        "1+4i",
-        "-1-4i"
+        "-2+2i",
+        "2-2i",
+        "2+2i",
+        "-2-2i"
       ],
-      "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "correct": "B",
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 69,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 3 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte.",
       "options": [
-        "2",
-        "1.333",
-        "4",
-        "12"
+        "1.5",
+        "3",
+        "1",
+        "9"
       ],
-      "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "correct": "C",
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 70,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=2 :",
+      "question": "Déterminer : Résoudre l'équation différentielle y' = 4 y et trouver la solution vérifiant y(0) = 3. Justifier la méthode choisie.",
       "options": [
-        "y=3e^2t",
-        "y=2+3t",
-        "y=2e^3t",
-        "y=2e^-3t"
+        "y=4e^3t",
+        "y=3+4t",
+        "y=3e^-4t",
+        "y=3e^4t"
       ],
-      "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "correct": "D",
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 71,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,2,0) et v=(0,6,2). Le produit scalaire u.v vaut :",
+      "question": "Trouver : Soient u = (1, 3, 0) et v = (0, 1, 3) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
-        "28",
-        "48",
-        "12 (3)",
-        "12"
+        "3",
+        "10",
+        "5",
+        "3 (3)"
       ],
-      "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "correct": "A",
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 72,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Donner : Une classe compte 6 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
-        "10",
-        "20",
-        "7",
-        "10 (3)"
+        "30",
+        "15",
+        "8",
+        "12"
       ],
-      "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "correct": "B",
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 73,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (5x+4)/(2x+4).",
+      "question": "Donner : Soit la fonction f définie sur R par f(x) = (5x + 4)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.4",
         "2.5",
@@ -947,25 +947,25 @@
         "7"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 74,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=6x^2-3x+1. Calculer f'(3).",
+      "question": "Calculer : Soit f définie par f(x) = 2x^2 - 4x + 1. (a) Déterminer f'(x). (b) Calculer f'(1) et expliquer brièvement la méthode.",
       "options": [
-        "15",
-        "9",
-        "33",
-        "39"
+        "-2",
+        "8",
+        "0 (3)",
+        "0"
       ],
-      "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "correct": "D",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 75,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=2. Calculer u6.",
+      "question": "Calculer : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 2. Calculer u6 et justifier la formule utilisée.",
       "options": [
         "16",
         "12",
@@ -973,12 +973,12 @@
         "14"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 76,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=7x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 7x^1 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
         "F(x)=3.5x^2+C",
         "F(x)=7x^0+C",
@@ -991,111 +991,111 @@
     {
       "id": 77,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Donner : Résoudre l'équation ln(x) = 4 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
-        "x=3e",
-        "x=e^3",
-        "x=ln(3)",
-        "x=e^-3"
+        "x=4e",
+        "x=ln(4)",
+        "x=e^4",
+        "x=e^-4"
       ],
-      "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "correct": "C",
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 78,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=4+4i. Le module |z| vaut :",
+      "question": "Quelle est : Soit z = 5 + 5i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
-        "8",
+        "10",
         "0",
-        "5.657",
-        "16"
+        "25",
+        "7.071"
       ],
-      "correct": "C",
+      "correct": "D",
       "explanation": "|a+bi| = sqrt(a^2+b^2)."
     },
     {
       "id": 79,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=6.",
+      "question": "Donner : Résoudre sur R l'équation e^(2x) = 5. Indiquer la méthode utilisée et donner la solution. (variante 50)",
       "options": [
-        "x=2ln(6)",
-        "x=ln(6)",
-        "x=ln(6)/4",
-        "x=(1/2)ln(6)"
+        "x=2ln(5)",
+        "x=ln(5)",
+        "x=(1/2)ln(5)",
+        "x=ln(5)/4"
       ],
-      "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "correct": "C",
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 80,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Déterminer : Soit z = 2 + 2i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
-        "1-4i",
-        "-1+4i",
-        "1+4i",
-        "-1-4i"
+        "-2+2i",
+        "2-2i",
+        "2+2i",
+        "-2-2i"
       ],
-      "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "correct": "B",
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 81,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 5 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte. (variante 50)",
       "options": [
-        "2",
-        "1.333",
-        "4",
-        "12"
+        "1.667",
+        "2.5",
+        "5",
+        "15"
       ],
-      "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "correct": "A",
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 82,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=4 :",
+      "question": "Donner : Résoudre l'équation différentielle y' = 4 y et trouver la solution vérifiant y(0) = 5. Justifier la méthode choisie.",
       "options": [
-        "y=3e^4t",
-        "y=4+3t",
-        "y=4e^3t",
-        "y=4e^-3t"
+        "y=4e^5t",
+        "y=5+4t",
+        "y=5e^-4t",
+        "y=5e^4t"
       ],
-      "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "correct": "D",
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 83,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,4,0) et v=(0,6,4). Le produit scalaire u.v vaut :",
+      "question": "Quelle est : Soient u = (1, 5, 0) et v = (0, 1, 5) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
-        "40",
-        "14",
-        "96",
-        "24"
+        "5",
+        "26",
+        "7",
+        "5 (3)"
       ],
-      "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "correct": "A",
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 84,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Calculer : Une classe compte 6 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
-        "10",
-        "20",
-        "7",
-        "10 (3)"
+        "30",
+        "15",
+        "8",
+        "12"
       ],
-      "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "correct": "B",
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 85,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (3x+1)/(2x+4).",
+      "question": "Calculer : Soit la fonction f définie sur R par f(x) = (3x + 1)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.667",
         "1.5",
@@ -1103,25 +1103,25 @@
         "1.5 (3)"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 86,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=3x^2-3x+1. Calculer f'(3).",
+      "question": "Trouver : Soit f définie par f(x) = 4x^2 - 4x + 1. (a) Déterminer f'(x). (b) Calculer f'(1) et expliquer brièvement la méthode.",
       "options": [
-        "6",
-        "3",
-        "15",
-        "21"
+        "0",
+        "12",
+        "4 (3)",
+        "4"
       ],
-      "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "correct": "D",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 87,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=4. Calculer u10.",
+      "question": "Trouver : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 4. Calculer u10 et justifier la formule utilisée.",
       "options": [
         "44",
         "36",
@@ -1129,129 +1129,129 @@
         "40"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 88,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=5x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 6x^2 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
-        "F(x)=2.5x^2+C",
-        "F(x)=5x^0+C",
-        "F(x)=5x^2+C",
-        "F(x)=2.5x^1+C"
+        "F(x)=12x^1+C",
+        "F(x)=2x^3+C",
+        "F(x)=6x^3+C",
+        "F(x)=2x^2+C"
       ],
-      "correct": "A",
+      "correct": "B",
       "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
     },
     {
       "id": 89,
       "topic": "Fonctions logarithmiques",
-      "question": "Resoudre dans R: ln(x)=3.",
+      "question": "Calculer : Résoudre l'équation ln(x) = 4 dans R^+. Donner la solution et préciser la condition sur x.",
       "options": [
-        "x=3e",
-        "x=e^3",
-        "x=ln(3)",
-        "x=e^-3"
+        "x=4e",
+        "x=ln(4)",
+        "x=e^4",
+        "x=e^-4"
       ],
-      "correct": "B",
-      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+      "correct": "C",
+      "explanation": "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     },
     {
       "id": 90,
       "topic": "Nombres complexes (Partie 1)",
-      "question": "Soit z=1+4i. Le module |z| vaut :",
+      "question": "Déterminer : Soit z = 2 + 5i. (a) Calculer le module |z|. (b) Justifier la formule utilisée.",
       "options": [
-        "5",
+        "7",
         "3",
-        "4.123",
-        "4"
+        "10",
+        "5.385"
       ],
-      "correct": "C",
+      "correct": "D",
       "explanation": "|a+bi| = sqrt(a^2+b^2)."
     },
     {
       "id": 91,
       "topic": "Fonctions exponentielles",
-      "question": "Resoudre dans R: e^(2x)=3.",
+      "question": "Calculer : Résoudre sur R l'équation e^(2x) = 2. Indiquer la méthode utilisée et donner la solution. (variante 50)",
       "options": [
-        "x=2ln(3)",
-        "x=ln(3)",
-        "x=ln(3)/4",
-        "x=(1/2)ln(3)"
+        "x=2ln(2)",
+        "x=ln(2)",
+        "x=(1/2)ln(2)",
+        "x=ln(2)/4"
       ],
-      "correct": "D",
-      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+      "correct": "C",
+      "explanation": "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     },
     {
       "id": 92,
       "topic": "Nombres complexes (Partie 2)",
-      "question": "Pour z=1+4i, son conjugue est :",
+      "question": "Donner : Soit z = 2 + 2i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué.",
       "options": [
-        "1-4i",
-        "-1+4i",
-        "1+4i",
-        "-1-4i"
+        "-2+2i",
+        "2-2i",
+        "2+2i",
+        "-2-2i"
       ],
-      "correct": "A",
-      "explanation": "Le conjugue de a+bi est a-bi."
+      "correct": "B",
+      "explanation": "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     },
     {
       "id": 93,
       "topic": "Calcul integral",
-      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "question": "Calculer I = ∫_0^1 6 x^2 dx. Présenter les étapes du calcul et donner la valeur exacte. (variante 51)",
       "options": [
+        "3",
+        "6",
         "2",
-        "1.333",
-        "4",
-        "12"
+        "18"
       ],
-      "correct": "B",
-      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+      "correct": "C",
+      "explanation": "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     },
     {
       "id": 94,
       "topic": "Equations differentielles",
-      "question": "Solution de y'=3y verifiant y(0)=6 :",
+      "question": "Calculer : Résoudre l'équation différentielle y' = 4 y et trouver la solution vérifiant y(0) = 2. Justifier la méthode choisie.",
       "options": [
-        "y=3e^6t",
-        "y=6+3t",
-        "y=6e^3t",
-        "y=6e^-3t"
+        "y=4e^2t",
+        "y=2+4t",
+        "y=2e^-4t",
+        "y=2e^4t"
       ],
-      "correct": "C",
-      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+      "correct": "D",
+      "explanation": "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     },
     {
       "id": 95,
       "topic": "Geometrie dans l'espace",
-      "question": "Dans R^3, u=(4,1,0) et v=(0,6,1). Le produit scalaire u.v vaut :",
+      "question": "Déterminer : Soient u = (1, 2, 0) et v = (0, 1, 2) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée.",
       "options": [
-        "25",
-        "11",
-        "24",
-        "6"
+        "2",
+        "5",
+        "4",
+        "2 (3)"
       ],
-      "correct": "D",
-      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+      "correct": "A",
+      "explanation": "u·v = a*0 + b*c + 0*b = b c."
     },
     {
       "id": 96,
       "topic": "Denombrement et probabilites",
-      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "question": "Trouver : Une classe compte 6 élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? Donnez la formule et expliquez le raisonnement.",
       "options": [
-        "10",
-        "20",
-        "7",
-        "10 (3)"
+        "30",
+        "15",
+        "8",
+        "12"
       ],
-      "correct": "A",
-      "explanation": "C(n,2)=n(n-1)/2."
+      "correct": "B",
+      "explanation": "Nombre de combinaisons C(n,2) = n(n-1)/2."
     },
     {
       "id": 97,
       "topic": "Limites et continuite",
-      "question": "Calculer lim(x->+inf) (8x+3)/(2x+4).",
+      "question": "Trouver : Soit la fonction f définie sur R par f(x) = (8x + 3)/(2x + 4). Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase.",
       "options": [
         "0.25",
         "4",
@@ -1259,25 +1259,25 @@
         "10"
       ],
       "correct": "B",
-      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+      "explanation": "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     },
     {
       "id": 98,
       "topic": "Derivation et etude des fonctions",
-      "question": "Soit f(x)=5x^2-3x+1. Calculer f'(3).",
+      "question": "Quelle est : Soit f définie par f(x) = 6x^2 - 4x + 1. (a) Déterminer f'(x). (b) Calculer f'(1) et expliquer brièvement la méthode.",
       "options": [
-        "12",
-        "7",
-        "27",
-        "33"
+        "2",
+        "16",
+        "8 (3)",
+        "8"
       ],
-      "correct": "C",
-      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+      "correct": "D",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     },
     {
       "id": 99,
       "topic": "Suites numeriques",
-      "question": "Suite arithmetique: u1=4, raison r=6. Calculer u6.",
+      "question": "Quelle est : On considère la suite arithmétique de premier terme u1 = 4 et raison r = 6. Calculer u6 et justifier la formule utilisée.",
       "options": [
         "40",
         "28",
@@ -1285,19 +1285,19 @@
         "34"
       ],
       "correct": "D",
-      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+      "explanation": "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     },
     {
       "id": 100,
       "topic": "Fonctions primitives",
-      "question": "Une primitive de f(x)=3x^1 est :",
+      "question": "Donner une primitive F de la fonction f définie par f(x) = 4x^2 (n entier naturel), en indiquant la constante d'intégration.",
       "options": [
-        "F(x)=1.5x^2+C",
-        "F(x)=3x^0+C",
-        "F(x)=3x^2+C",
-        "F(x)=1.5x^1+C"
+        "F(x)=8x^1+C",
+        "F(x)=1.333x^3+C",
+        "F(x)=4x^3+C",
+        "F(x)=1.333x^2+C"
       ],
-      "correct": "A",
+      "correct": "B",
       "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
     }
   ],
@@ -1305,7 +1305,7 @@
     {
       "id": 1,
       "topic": "Ondes mecaniques progressives",
-      "question": "Une perturbation parcourt 111 m en 2 s. La vitesse de propagation vaut :",
+      "question": "Déterminer : Une perturbation parcourt 111 m en 2 s. La vitesse de propagation vaut :",
       "options": [
         "0.018",
         "222",
@@ -1318,7 +1318,7 @@
     {
       "id": 2,
       "topic": "Ondes mecaniques progressives periodiques",
-      "question": "Pour une onde periodique de frequence f=7 Hz, la periode T vaut :",
+      "question": "Trouver : Pour une onde periodique de frequence f=7 Hz, la periode T vaut :",
       "options": [
         "7",
         "3.5",
@@ -1331,7 +1331,7 @@
     {
       "id": 3,
       "topic": "Propagation des ondes lumineuses",
-      "question": "Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
+      "question": "Donner : Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
       "options": [
         "v=c/n",
         "v=c*n",
@@ -1344,7 +1344,7 @@
     {
       "id": 4,
       "topic": "Transformations nucleaires",
-      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "question": "Quelle est : Lors d'une desintegration beta-, il y a emission de :",
       "options": [
         "Un positon et un neutrino",
         "Un electron et un antineutrino",
@@ -1357,7 +1357,7 @@
     {
       "id": 5,
       "topic": "Noyau (masse et energie)",
-      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "question": "Calculer : La relation entre defaut de masse et energie de liaison est :",
       "options": [
         "E=dm/c^2",
         "E=dm*c",
@@ -1370,7 +1370,7 @@
     {
       "id": 6,
       "topic": "Dipole RC",
-      "question": "Pour R=2000 ohm et C=3e-06 F, la constante de temps tau vaut :",
+      "question": "Déterminer : Pour R=2000 ohm et C=3e-06 F, la constante de temps tau vaut :",
       "options": [
         "666666666.667",
         "0",
@@ -1383,7 +1383,7 @@
     {
       "id": 7,
       "topic": "Dipole RL",
-      "question": "Pour L=0.2 H et R=30 ohm, la constante de temps tau vaut :",
+      "question": "Trouver : Pour L=0.2 H et R=30 ohm, la constante de temps tau vaut :",
       "options": [
         "0.007",
         "6",
@@ -1396,7 +1396,7 @@
     {
       "id": 8,
       "topic": "Oscillations libres d'un circuit RLC",
-      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "question": "Donner : Dans un circuit RLC libre faiblement amorti, la tension est :",
       "options": [
         "Strictement constante",
         "Pseudo-periodique amortie",
@@ -1409,7 +1409,7 @@
     {
       "id": 9,
       "topic": "Transformations lentes et rapides",
-      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "question": "Quelle est : Une transformation est dite quasi-statique lorsqu'elle est :",
       "options": [
         "Instantanee",
         "Toujours irreversible",
@@ -1422,7 +1422,7 @@
     {
       "id": 10,
       "topic": "Suivi temporel et vitesse de reaction",
-      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "question": "Calculer : La vitesse volumique de reaction s'exprime generalement en :",
       "options": [
         "J.s^-1",
         "m.s^-1",
@@ -1435,7 +1435,7 @@
     {
       "id": 11,
       "topic": "Transformations chimiques reversibles",
-      "question": "Une reaction reversible est caracterisee par :",
+      "question": "Déterminer : Une reaction reversible est caracterisee par :",
       "options": [
         "Deux sens direct et inverse",
         "Un seul sens",
@@ -1448,7 +1448,7 @@
     {
       "id": 12,
       "topic": "Etat d'equilibre d'un systeme chimique",
-      "question": "A l'equilibre chimique, on a :",
+      "question": "Trouver : A l'equilibre chimique, on a :",
       "options": [
         "reactifs nuls",
         "vitesse_directe = vitesse_inverse",
@@ -1461,7 +1461,7 @@
     {
       "id": 13,
       "topic": "Reactions acide-base",
-      "question": "Selon Brønsted, un acide est une espece qui :",
+      "question": "Donner : Selon Brønsted, un acide est une espece qui :",
       "options": [
         "Capte un electron",
         "Cede un neutron",
@@ -1474,7 +1474,7 @@
     {
       "id": 14,
       "topic": "Lois de Newton",
-      "question": "Pour un solide de masse 5 kg et acceleration 3 m/s^2, la resultante vaut :",
+      "question": "Quelle est : Pour un solide de masse 5 kg et acceleration 3 m/s^2, la resultante vaut :",
       "options": [
         "8 N",
         "1.6666666666666667 N",
@@ -1487,7 +1487,7 @@
     {
       "id": 15,
       "topic": "Chute libre verticale",
-      "question": "En chute libre sans frottements, l'acceleration est :",
+      "question": "Calculer : En chute libre sans frottements, l'acceleration est :",
       "options": [
         "g vers le bas",
         "nulle",
@@ -1500,7 +1500,7 @@
     {
       "id": 16,
       "topic": "Mouvement d'un projectile",
-      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "question": "Déterminer : Sans frottement de l'air, la trajectoire d'un projectile est :",
       "options": [
         "Circulaire",
         "Parabolique",
@@ -1513,7 +1513,7 @@
     {
       "id": 17,
       "topic": "Mouvement de rotation",
-      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "question": "Trouver : La relation fondamentale de la dynamique de rotation est :",
       "options": [
         "Somme(F)=J*alpha",
         "Somme(M)=m*a",
@@ -1526,7 +1526,7 @@
     {
       "id": 18,
       "topic": "Systemes mecaniques oscillants",
-      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "question": "Donner : Pour un oscillateur harmonique ideal, la periode propre depend de :",
       "options": [
         "Amplitude initiale uniquement",
         "Couleur du ressort",
@@ -1539,7 +1539,7 @@
     {
       "id": 19,
       "topic": "Aspects energetiques des oscillations",
-      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "question": "Quelle est : Dans un oscillateur non amorti, l'energie mecanique totale est :",
       "options": [
         "Conservee",
         "Toujours nulle",
@@ -1552,7 +1552,7 @@
     {
       "id": 20,
       "topic": "Evolution spontanee d'un systeme chimique",
-      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "question": "Calculer : L'evolution spontanee d'un systeme chimique se fait vers :",
       "options": [
         "Un etat impossible",
         "Un etat d'equilibre",
@@ -1565,7 +1565,7 @@
     {
       "id": 21,
       "topic": "Piles et production d'energie",
-      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "question": "Déterminer : Dans une pile qui debite, l'energie chimique est convertie en :",
       "options": [
         "Energie nucleaire",
         "Energie lumineuse uniquement",
@@ -1578,7 +1578,7 @@
     {
       "id": 22,
       "topic": "Esterification et hydrolyse",
-      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "question": "Trouver : L'esterification entre un acide carboxylique et un alcool forme :",
       "options": [
         "Un acide fort",
         "Un sel uniquement",
@@ -1591,7 +1591,7 @@
     {
       "id": 23,
       "topic": "Ondes mecaniques progressives",
-      "question": "Une perturbation parcourt 133 m en 4 s. La vitesse de propagation vaut :",
+      "question": "Donner : Une perturbation parcourt 133 m en 4 s. La vitesse de propagation vaut :",
       "options": [
         "33.25",
         "0.03",
@@ -1604,7 +1604,7 @@
     {
       "id": 24,
       "topic": "Ondes mecaniques progressives periodiques",
-      "question": "Pour une onde periodique de frequence f=14 Hz, la periode T vaut :",
+      "question": "Quelle est : Pour une onde periodique de frequence f=14 Hz, la periode T vaut :",
       "options": [
         "14",
         "0.071",
@@ -1617,7 +1617,7 @@
     {
       "id": 25,
       "topic": "Propagation des ondes lumineuses",
-      "question": "Dans un milieu d'indice n=2.2, la vitesse de la lumiere vaut :",
+      "question": "Calculer : Dans un milieu d'indice n=2.2, la vitesse de la lumiere vaut :",
       "options": [
         "v=c*n",
         "v=n/c",
@@ -1630,7 +1630,7 @@
     {
       "id": 26,
       "topic": "Transformations nucleaires",
-      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "question": "Déterminer : Lors d'une desintegration beta-, il y a emission de :",
       "options": [
         "Un positon et un neutrino",
         "Un proton",
@@ -1643,7 +1643,7 @@
     {
       "id": 27,
       "topic": "Noyau (masse et energie)",
-      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "question": "Trouver : La relation entre defaut de masse et energie de liaison est :",
       "options": [
         "E=dm*c^2",
         "E=dm/c^2",
@@ -1656,7 +1656,7 @@
     {
       "id": 28,
       "topic": "Dipole RC",
-      "question": "Pour R=4000 ohm et C=1e-06 F, la constante de temps tau vaut :",
+      "question": "Donner : Pour R=4000 ohm et C=1e-06 F, la constante de temps tau vaut :",
       "options": [
         "4000000000",
         "0.004",
@@ -1669,7 +1669,7 @@
     {
       "id": 29,
       "topic": "Dipole RL",
-      "question": "Pour L=0.6000000000000001 H et R=50 ohm, la constante de temps tau vaut :",
+      "question": "Quelle est : Pour L=0.6000000000000001 H et R=50 ohm, la constante de temps tau vaut :",
       "options": [
         "30",
         "83.333",
@@ -1682,7 +1682,7 @@
     {
       "id": 30,
       "topic": "Oscillations libres d'un circuit RLC",
-      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "question": "Calculer : Dans un circuit RLC libre faiblement amorti, la tension est :",
       "options": [
         "Strictement constante",
         "Lineaire croissante",
@@ -1695,7 +1695,7 @@
     {
       "id": 31,
       "topic": "Transformations lentes et rapides",
-      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "question": "Déterminer : Une transformation est dite quasi-statique lorsqu'elle est :",
       "options": [
         "Suffisamment lente",
         "Instantanee",
@@ -1708,7 +1708,7 @@
     {
       "id": 32,
       "topic": "Suivi temporel et vitesse de reaction",
-      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "question": "Trouver : La vitesse volumique de reaction s'exprime generalement en :",
       "options": [
         "J.s^-1",
         "mol.L^-1.s^-1",
@@ -1721,7 +1721,7 @@
     {
       "id": 33,
       "topic": "Transformations chimiques reversibles",
-      "question": "Une reaction reversible est caracterisee par :",
+      "question": "Donner : Une reaction reversible est caracterisee par :",
       "options": [
         "Un seul sens",
         "Une vitesse nulle",
@@ -1734,7 +1734,7 @@
     {
       "id": 34,
       "topic": "Etat d'equilibre d'un systeme chimique",
-      "question": "A l'equilibre chimique, on a :",
+      "question": "Quelle est : A l'equilibre chimique, on a :",
       "options": [
         "reactifs nuls",
         "produits nuls",
@@ -1747,7 +1747,7 @@
     {
       "id": 35,
       "topic": "Reactions acide-base",
-      "question": "Selon Brønsted, un acide est une espece qui :",
+      "question": "Calculer : Selon Brønsted, un acide est une espece qui :",
       "options": [
         "Cede un proton H+",
         "Capte un electron",
@@ -1760,7 +1760,7 @@
     {
       "id": 36,
       "topic": "Lois de Newton",
-      "question": "Pour un solide de masse 2 kg et acceleration 1 m/s^2, la resultante vaut :",
+      "question": "Déterminer : Pour un solide de masse 2 kg et acceleration 1 m/s^2, la resultante vaut :",
       "options": [
         "3 N",
         "2 N",
@@ -1773,7 +1773,7 @@
     {
       "id": 37,
       "topic": "Chute libre verticale",
-      "question": "En chute libre sans frottements, l'acceleration est :",
+      "question": "Trouver : En chute libre sans frottements, l'acceleration est :",
       "options": [
         "nulle",
         "variable sinusoidale",
@@ -1786,7 +1786,7 @@
     {
       "id": 38,
       "topic": "Mouvement d'un projectile",
-      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "question": "Donner : Sans frottement de l'air, la trajectoire d'un projectile est :",
       "options": [
         "Circulaire",
         "Rectiligne uniforme",
@@ -1799,7 +1799,7 @@
     {
       "id": 39,
       "topic": "Mouvement de rotation",
-      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "question": "Quelle est : La relation fondamentale de la dynamique de rotation est :",
       "options": [
         "Somme(M) = J*alpha",
         "Somme(F)=J*alpha",
@@ -1812,7 +1812,7 @@
     {
       "id": 40,
       "topic": "Systemes mecaniques oscillants",
-      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "question": "Calculer : Pour un oscillateur harmonique ideal, la periode propre depend de :",
       "options": [
         "Amplitude initiale uniquement",
         "Parametres du systeme (m,k)",
@@ -1825,7 +1825,7 @@
     {
       "id": 41,
       "topic": "Aspects energetiques des oscillations",
-      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "question": "Déterminer : Dans un oscillateur non amorti, l'energie mecanique totale est :",
       "options": [
         "Toujours nulle",
         "Strictement croissante",
@@ -1838,7 +1838,7 @@
     {
       "id": 42,
       "topic": "Evolution spontanee d'un systeme chimique",
-      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "question": "Trouver : L'evolution spontanee d'un systeme chimique se fait vers :",
       "options": [
         "Un etat impossible",
         "Toujours reactifs purs",
@@ -1851,7 +1851,7 @@
     {
       "id": 43,
       "topic": "Piles et production d'energie",
-      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "question": "Donner : Dans une pile qui debite, l'energie chimique est convertie en :",
       "options": [
         "Energie electrique",
         "Energie nucleaire",
@@ -1864,7 +1864,7 @@
     {
       "id": 44,
       "topic": "Esterification et hydrolyse",
-      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "question": "Quelle est : L'esterification entre un acide carboxylique et un alcool forme :",
       "options": [
         "Un acide fort",
         "Un ester et de l'eau",
@@ -1877,7 +1877,7 @@
     {
       "id": 45,
       "topic": "Ondes mecaniques progressives",
-      "question": "Une perturbation parcourt 155 m en 1 s. La vitesse de propagation vaut :",
+      "question": "Calculer : Une perturbation parcourt 155 m en 1 s. La vitesse de propagation vaut :",
       "options": [
         "0.006",
         "154",
@@ -1890,7 +1890,7 @@
     {
       "id": 46,
       "topic": "Ondes mecaniques progressives periodiques",
-      "question": "Pour une onde periodique de frequence f=6 Hz, la periode T vaut :",
+      "question": "Déterminer : Pour une onde periodique de frequence f=6 Hz, la periode T vaut :",
       "options": [
         "6",
         "3",
@@ -1903,7 +1903,7 @@
     {
       "id": 47,
       "topic": "Propagation des ondes lumineuses",
-      "question": "Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
+      "question": "Trouver : Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
       "options": [
         "v=c/n",
         "v=c*n",
@@ -1916,7 +1916,7 @@
     {
       "id": 48,
       "topic": "Transformations nucleaires",
-      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "question": "Donner : Lors d'une desintegration beta-, il y a emission de :",
       "options": [
         "Un positon et un neutrino",
         "Un electron et un antineutrino",
@@ -1929,7 +1929,7 @@
     {
       "id": 49,
       "topic": "Noyau (masse et energie)",
-      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "question": "Quelle est : La relation entre defaut de masse et energie de liaison est :",
       "options": [
         "E=dm/c^2",
         "E=dm*c",
@@ -1942,7 +1942,7 @@
     {
       "id": 50,
       "topic": "Dipole RC",
-      "question": "Pour R=1000 ohm et C=3e-06 F, la constante de temps tau vaut :",
+      "question": "Calculer : Pour R=1000 ohm et C=3e-06 F, la constante de temps tau vaut :",
       "options": [
         "333333333.333",
         "0",
@@ -1955,7 +1955,7 @@
     {
       "id": 51,
       "topic": "Dipole RL",
-      "question": "Pour L=0.4 H et R=20 ohm, la constante de temps tau vaut :",
+      "question": "Déterminer : Pour L=0.4 H et R=20 ohm, la constante de temps tau vaut :",
       "options": [
         "0.02",
         "8",
@@ -1968,7 +1968,7 @@
     {
       "id": 52,
       "topic": "Oscillations libres d'un circuit RLC",
-      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "question": "Trouver : Dans un circuit RLC libre faiblement amorti, la tension est :",
       "options": [
         "Strictement constante",
         "Pseudo-periodique amortie",
@@ -1981,7 +1981,7 @@
     {
       "id": 53,
       "topic": "Transformations lentes et rapides",
-      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "question": "Donner : Une transformation est dite quasi-statique lorsqu'elle est :",
       "options": [
         "Instantanee",
         "Toujours irreversible",
@@ -1994,7 +1994,7 @@
     {
       "id": 54,
       "topic": "Suivi temporel et vitesse de reaction",
-      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "question": "Quelle est : La vitesse volumique de reaction s'exprime generalement en :",
       "options": [
         "J.s^-1",
         "m.s^-1",
@@ -2007,7 +2007,7 @@
     {
       "id": 55,
       "topic": "Transformations chimiques reversibles",
-      "question": "Une reaction reversible est caracterisee par :",
+      "question": "Calculer : Une reaction reversible est caracterisee par :",
       "options": [
         "Deux sens direct et inverse",
         "Un seul sens",
@@ -2020,7 +2020,7 @@
     {
       "id": 56,
       "topic": "Etat d'equilibre d'un systeme chimique",
-      "question": "A l'equilibre chimique, on a :",
+      "question": "Déterminer : A l'equilibre chimique, on a :",
       "options": [
         "reactifs nuls",
         "vitesse_directe = vitesse_inverse",
@@ -2033,7 +2033,7 @@
     {
       "id": 57,
       "topic": "Reactions acide-base",
-      "question": "Selon Brønsted, un acide est une espece qui :",
+      "question": "Trouver : Selon Brønsted, un acide est une espece qui :",
       "options": [
         "Capte un electron",
         "Cede un neutron",
@@ -2046,7 +2046,7 @@
     {
       "id": 58,
       "topic": "Lois de Newton",
-      "question": "Pour un solide de masse 4 kg et acceleration 5 m/s^2, la resultante vaut :",
+      "question": "Donner : Pour un solide de masse 4 kg et acceleration 5 m/s^2, la resultante vaut :",
       "options": [
         "9 N",
         "0.8 N",
@@ -2059,7 +2059,7 @@
     {
       "id": 59,
       "topic": "Chute libre verticale",
-      "question": "En chute libre sans frottements, l'acceleration est :",
+      "question": "Quelle est : En chute libre sans frottements, l'acceleration est :",
       "options": [
         "g vers le bas",
         "nulle",
@@ -2072,7 +2072,7 @@
     {
       "id": 60,
       "topic": "Mouvement d'un projectile",
-      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "question": "Calculer : Sans frottement de l'air, la trajectoire d'un projectile est :",
       "options": [
         "Circulaire",
         "Parabolique",
@@ -2085,7 +2085,7 @@
     {
       "id": 61,
       "topic": "Mouvement de rotation",
-      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "question": "Déterminer : La relation fondamentale de la dynamique de rotation est :",
       "options": [
         "Somme(F)=J*alpha",
         "Somme(M)=m*a",
@@ -2098,7 +2098,7 @@
     {
       "id": 62,
       "topic": "Systemes mecaniques oscillants",
-      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "question": "Trouver : Pour un oscillateur harmonique ideal, la periode propre depend de :",
       "options": [
         "Amplitude initiale uniquement",
         "Couleur du ressort",
@@ -2111,7 +2111,7 @@
     {
       "id": 63,
       "topic": "Aspects energetiques des oscillations",
-      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "question": "Donner : Dans un oscillateur non amorti, l'energie mecanique totale est :",
       "options": [
         "Conservee",
         "Toujours nulle",
@@ -2124,7 +2124,7 @@
     {
       "id": 64,
       "topic": "Evolution spontanee d'un systeme chimique",
-      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "question": "Quelle est : L'evolution spontanee d'un systeme chimique se fait vers :",
       "options": [
         "Un etat impossible",
         "Un etat d'equilibre",
@@ -2137,7 +2137,7 @@
     {
       "id": 65,
       "topic": "Piles et production d'energie",
-      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "question": "Calculer : Dans une pile qui debite, l'energie chimique est convertie en :",
       "options": [
         "Energie nucleaire",
         "Energie lumineuse uniquement",
@@ -2150,7 +2150,7 @@
     {
       "id": 66,
       "topic": "Esterification et hydrolyse",
-      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "question": "Déterminer : L'esterification entre un acide carboxylique et un alcool forme :",
       "options": [
         "Un acide fort",
         "Un sel uniquement",
@@ -2163,7 +2163,7 @@
     {
       "id": 67,
       "topic": "Ondes mecaniques progressives",
-      "question": "Une perturbation parcourt 177 m en 3 s. La vitesse de propagation vaut :",
+      "question": "Trouver : Une perturbation parcourt 177 m en 3 s. La vitesse de propagation vaut :",
       "options": [
         "59",
         "0.017",
@@ -2176,7 +2176,7 @@
     {
       "id": 68,
       "topic": "Ondes mecaniques progressives periodiques",
-      "question": "Pour une onde periodique de frequence f=13 Hz, la periode T vaut :",
+      "question": "Donner : Pour une onde periodique de frequence f=13 Hz, la periode T vaut :",
       "options": [
         "13",
         "0.077",
@@ -2189,7 +2189,7 @@
     {
       "id": 69,
       "topic": "Propagation des ondes lumineuses",
-      "question": "Dans un milieu d'indice n=2.2, la vitesse de la lumiere vaut :",
+      "question": "Quelle est : Dans un milieu d'indice n=2.2, la vitesse de la lumiere vaut :",
       "options": [
         "v=c*n",
         "v=n/c",
@@ -2202,7 +2202,7 @@
     {
       "id": 70,
       "topic": "Transformations nucleaires",
-      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "question": "Calculer : Lors d'une desintegration beta-, il y a emission de :",
       "options": [
         "Un positon et un neutrino",
         "Un proton",
@@ -2215,7 +2215,7 @@
     {
       "id": 71,
       "topic": "Noyau (masse et energie)",
-      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "question": "Déterminer : La relation entre defaut de masse et energie de liaison est :",
       "options": [
         "E=dm*c^2",
         "E=dm/c^2",
@@ -2228,7 +2228,7 @@
     {
       "id": 72,
       "topic": "Dipole RC",
-      "question": "Pour R=3000 ohm et C=1e-06 F, la constante de temps tau vaut :",
+      "question": "Trouver : Pour R=3000 ohm et C=1e-06 F, la constante de temps tau vaut :",
       "options": [
         "3000000000",
         "0.003",
@@ -2241,7 +2241,7 @@
     {
       "id": 73,
       "topic": "Dipole RL",
-      "question": "Pour L=0.2 H et R=40 ohm, la constante de temps tau vaut :",
+      "question": "Donner : Pour L=0.2 H et R=40 ohm, la constante de temps tau vaut :",
       "options": [
         "8",
         "200",
@@ -2254,7 +2254,7 @@
     {
       "id": 74,
       "topic": "Oscillations libres d'un circuit RLC",
-      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "question": "Quelle est : Dans un circuit RLC libre faiblement amorti, la tension est :",
       "options": [
         "Strictement constante",
         "Lineaire croissante",
@@ -2267,7 +2267,7 @@
     {
       "id": 75,
       "topic": "Transformations lentes et rapides",
-      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "question": "Calculer : Une transformation est dite quasi-statique lorsqu'elle est :",
       "options": [
         "Suffisamment lente",
         "Instantanee",
@@ -2280,7 +2280,7 @@
     {
       "id": 76,
       "topic": "Suivi temporel et vitesse de reaction",
-      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "question": "Déterminer : La vitesse volumique de reaction s'exprime generalement en :",
       "options": [
         "J.s^-1",
         "mol.L^-1.s^-1",
@@ -2293,7 +2293,7 @@
     {
       "id": 77,
       "topic": "Transformations chimiques reversibles",
-      "question": "Une reaction reversible est caracterisee par :",
+      "question": "Trouver : Une reaction reversible est caracterisee par :",
       "options": [
         "Un seul sens",
         "Une vitesse nulle",
@@ -2306,7 +2306,7 @@
     {
       "id": 78,
       "topic": "Etat d'equilibre d'un systeme chimique",
-      "question": "A l'equilibre chimique, on a :",
+      "question": "Donner : A l'equilibre chimique, on a :",
       "options": [
         "reactifs nuls",
         "produits nuls",
@@ -2319,7 +2319,7 @@
     {
       "id": 79,
       "topic": "Reactions acide-base",
-      "question": "Selon Brønsted, un acide est une espece qui :",
+      "question": "Quelle est : Selon Brønsted, un acide est une espece qui :",
       "options": [
         "Cede un proton H+",
         "Capte un electron",
@@ -2332,7 +2332,7 @@
     {
       "id": 80,
       "topic": "Lois de Newton",
-      "question": "Pour un solide de masse 1 kg et acceleration 3 m/s^2, la resultante vaut :",
+      "question": "Calculer : Pour un solide de masse 1 kg et acceleration 3 m/s^2, la resultante vaut :",
       "options": [
         "4 N",
         "3 N",
@@ -2345,7 +2345,7 @@
     {
       "id": 81,
       "topic": "Chute libre verticale",
-      "question": "En chute libre sans frottements, l'acceleration est :",
+      "question": "Déterminer : En chute libre sans frottements, l'acceleration est :",
       "options": [
         "nulle",
         "variable sinusoidale",
@@ -2358,7 +2358,7 @@
     {
       "id": 82,
       "topic": "Mouvement d'un projectile",
-      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "question": "Trouver : Sans frottement de l'air, la trajectoire d'un projectile est :",
       "options": [
         "Circulaire",
         "Rectiligne uniforme",
@@ -2371,7 +2371,7 @@
     {
       "id": 83,
       "topic": "Mouvement de rotation",
-      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "question": "Donner : La relation fondamentale de la dynamique de rotation est :",
       "options": [
         "Somme(M) = J*alpha",
         "Somme(F)=J*alpha",
@@ -2384,7 +2384,7 @@
     {
       "id": 84,
       "topic": "Systemes mecaniques oscillants",
-      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "question": "Quelle est : Pour un oscillateur harmonique ideal, la periode propre depend de :",
       "options": [
         "Amplitude initiale uniquement",
         "Parametres du systeme (m,k)",
@@ -2397,7 +2397,7 @@
     {
       "id": 85,
       "topic": "Aspects energetiques des oscillations",
-      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "question": "Calculer : Dans un oscillateur non amorti, l'energie mecanique totale est :",
       "options": [
         "Toujours nulle",
         "Strictement croissante",
@@ -2410,7 +2410,7 @@
     {
       "id": 86,
       "topic": "Evolution spontanee d'un systeme chimique",
-      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "question": "Déterminer : L'evolution spontanee d'un systeme chimique se fait vers :",
       "options": [
         "Un etat impossible",
         "Toujours reactifs purs",
@@ -2423,7 +2423,7 @@
     {
       "id": 87,
       "topic": "Piles et production d'energie",
-      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "question": "Trouver : Dans une pile qui debite, l'energie chimique est convertie en :",
       "options": [
         "Energie electrique",
         "Energie nucleaire",
@@ -2436,7 +2436,7 @@
     {
       "id": 88,
       "topic": "Esterification et hydrolyse",
-      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "question": "Donner : L'esterification entre un acide carboxylique et un alcool forme :",
       "options": [
         "Un acide fort",
         "Un ester et de l'eau",
@@ -2449,7 +2449,7 @@
     {
       "id": 89,
       "topic": "Ondes mecaniques progressives",
-      "question": "Une perturbation parcourt 199 m en 5 s. La vitesse de propagation vaut :",
+      "question": "Quelle est : Une perturbation parcourt 199 m en 5 s. La vitesse de propagation vaut :",
       "options": [
         "0.025",
         "995",
@@ -2462,7 +2462,7 @@
     {
       "id": 90,
       "topic": "Ondes mecaniques progressives periodiques",
-      "question": "Pour une onde periodique de frequence f=5 Hz, la periode T vaut :",
+      "question": "Calculer : Pour une onde periodique de frequence f=5 Hz, la periode T vaut :",
       "options": [
         "5",
         "2.5",
@@ -2475,7 +2475,7 @@
     {
       "id": 91,
       "topic": "Propagation des ondes lumineuses",
-      "question": "Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
+      "question": "Déterminer : Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
       "options": [
         "v=c/n",
         "v=c*n",
@@ -2488,7 +2488,7 @@
     {
       "id": 92,
       "topic": "Transformations nucleaires",
-      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "question": "Trouver : Lors d'une desintegration beta-, il y a emission de :",
       "options": [
         "Un positon et un neutrino",
         "Un electron et un antineutrino",
@@ -2501,7 +2501,7 @@
     {
       "id": 93,
       "topic": "Noyau (masse et energie)",
-      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "question": "Donner : La relation entre defaut de masse et energie de liaison est :",
       "options": [
         "E=dm/c^2",
         "E=dm*c",
@@ -2514,7 +2514,7 @@
     {
       "id": 94,
       "topic": "Dipole RC",
-      "question": "Pour R=5000 ohm et C=3e-06 F, la constante de temps tau vaut :",
+      "question": "Quelle est : Pour R=5000 ohm et C=3e-06 F, la constante de temps tau vaut :",
       "options": [
         "1666666666.667",
         "0",
@@ -2527,7 +2527,7 @@
     {
       "id": 95,
       "topic": "Dipole RL",
-      "question": "Pour L=0.6000000000000001 H et R=10 ohm, la constante de temps tau vaut :",
+      "question": "Calculer : Pour L=0.6000000000000001 H et R=10 ohm, la constante de temps tau vaut :",
       "options": [
         "0.06",
         "6",
@@ -2540,7 +2540,7 @@
     {
       "id": 96,
       "topic": "Oscillations libres d'un circuit RLC",
-      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "question": "Déterminer : Dans un circuit RLC libre faiblement amorti, la tension est :",
       "options": [
         "Strictement constante",
         "Pseudo-periodique amortie",
@@ -2553,7 +2553,7 @@
     {
       "id": 97,
       "topic": "Transformations lentes et rapides",
-      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "question": "Trouver : Une transformation est dite quasi-statique lorsqu'elle est :",
       "options": [
         "Instantanee",
         "Toujours irreversible",
@@ -2566,7 +2566,7 @@
     {
       "id": 98,
       "topic": "Suivi temporel et vitesse de reaction",
-      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "question": "Donner : La vitesse volumique de reaction s'exprime generalement en :",
       "options": [
         "J.s^-1",
         "m.s^-1",
@@ -2579,7 +2579,7 @@
     {
       "id": 99,
       "topic": "Transformations chimiques reversibles",
-      "question": "Une reaction reversible est caracterisee par :",
+      "question": "Quelle est : Une reaction reversible est caracterisee par :",
       "options": [
         "Deux sens direct et inverse",
         "Un seul sens",
@@ -2592,7 +2592,7 @@
     {
       "id": 100,
       "topic": "Etat d'equilibre d'un systeme chimique",
-      "question": "A l'equilibre chimique, on a :",
+      "question": "Calculer : A l'equilibre chimique, on a :",
       "options": [
         "reactifs nuls",
         "vitesse_directe = vitesse_inverse",
@@ -2607,7 +2607,7 @@
     {
       "id": 1,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Déterminer : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ?",
       "options": [
         "ADN",
         "Uree",
@@ -2615,12 +2615,12 @@
         "ATP"
       ],
       "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 2,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Trouver : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes.",
       "options": [
         "Transcription puis traduction",
         "Replication puis mitose",
@@ -2628,12 +2628,12 @@
         "Traduction puis replication"
       ],
       "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 3,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Donner : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant.",
       "options": [
         "Copie identique stricte",
         "Brassage inter et intrachromosomique",
@@ -2641,12 +2641,12 @@
         "Suppression totale des genes"
       ],
       "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 4,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Quelle est : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ?",
       "options": [
         "Selection naturelle forte",
         "Mutation tres elevee",
@@ -2654,12 +2654,12 @@
         "Population tres petite"
       ],
       "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 5,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Calculer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple.",
       "options": [
         "Divergence oceanique",
         "Absence de mouvements",
@@ -2667,12 +2667,12 @@
         "Convergence de plaques lithospheriques"
       ],
       "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 6,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Déterminer : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication.",
       "options": [
         "Production d'anticorps",
         "Phagocytose rapide",
@@ -2680,12 +2680,12 @@
         "Synthese de chlorophylle"
       ],
       "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 7,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Trouver : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ?",
       "options": [
         "ADN",
         "ATP",
@@ -2693,12 +2693,12 @@
         "Acide lactique uniquement"
       ],
       "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 8,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Donner : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes.",
       "options": [
         "Replication puis mitose",
         "Meiose puis fecondation",
@@ -2706,12 +2706,12 @@
         "Traduction puis replication"
       ],
       "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 9,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Quelle est : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant.",
       "options": [
         "Copie identique stricte",
         "Absence de recombinaison",
@@ -2719,12 +2719,12 @@
         "Brassage inter et intrachromosomique"
       ],
       "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 10,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Calculer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ?",
       "options": [
         "Accouplements au hasard",
         "Selection naturelle forte",
@@ -2732,12 +2732,12 @@
         "Population tres petite"
       ],
       "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 11,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Déterminer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple.",
       "options": [
         "Divergence oceanique",
         "Convergence de plaques lithospheriques",
@@ -2745,12 +2745,12 @@
         "Evaporation des oceans"
       ],
       "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 12,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Trouver : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication.",
       "options": [
         "Phagocytose rapide",
         "Contraction musculaire",
@@ -2758,12 +2758,12 @@
         "Synthese de chlorophylle"
       ],
       "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 13,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Donner : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ?",
       "options": [
         "ADN",
         "Uree",
@@ -2771,12 +2771,12 @@
         "ATP"
       ],
       "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 14,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Quelle est : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes.",
       "options": [
         "Transcription puis traduction",
         "Replication puis mitose",
@@ -2784,12 +2784,12 @@
         "Traduction puis replication"
       ],
       "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 15,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Calculer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant.",
       "options": [
         "Copie identique stricte",
         "Brassage inter et intrachromosomique",
@@ -2797,12 +2797,12 @@
         "Suppression totale des genes"
       ],
       "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 16,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Déterminer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ?",
       "options": [
         "Selection naturelle forte",
         "Mutation tres elevee",
@@ -2810,12 +2810,12 @@
         "Population tres petite"
       ],
       "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 17,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Trouver : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple.",
       "options": [
         "Divergence oceanique",
         "Absence de mouvements",
@@ -2823,12 +2823,12 @@
         "Convergence de plaques lithospheriques"
       ],
       "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 18,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Donner : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication.",
       "options": [
         "Production d'anticorps",
         "Phagocytose rapide",
@@ -2836,12 +2836,12 @@
         "Synthese de chlorophylle"
       ],
       "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 19,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Quelle est : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ?",
       "options": [
         "ADN",
         "ATP",
@@ -2849,12 +2849,12 @@
         "Acide lactique uniquement"
       ],
       "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 20,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Calculer : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes.",
       "options": [
         "Replication puis mitose",
         "Meiose puis fecondation",
@@ -2862,12 +2862,12 @@
         "Traduction puis replication"
       ],
       "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 21,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Déterminer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant.",
       "options": [
         "Copie identique stricte",
         "Absence de recombinaison",
@@ -2875,12 +2875,12 @@
         "Brassage inter et intrachromosomique"
       ],
       "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 22,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Trouver : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ?",
       "options": [
         "Accouplements au hasard",
         "Selection naturelle forte",
@@ -2888,12 +2888,12 @@
         "Population tres petite"
       ],
       "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 23,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Donner : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple.",
       "options": [
         "Divergence oceanique",
         "Convergence de plaques lithospheriques",
@@ -2901,12 +2901,12 @@
         "Evaporation des oceans"
       ],
       "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 24,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Quelle est : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication.",
       "options": [
         "Phagocytose rapide",
         "Contraction musculaire",
@@ -2914,12 +2914,12 @@
         "Synthese de chlorophylle"
       ],
       "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 25,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Calculer : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ?",
       "options": [
         "ADN",
         "Uree",
@@ -2927,12 +2927,12 @@
         "ATP"
       ],
       "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 26,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Déterminer : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes.",
       "options": [
         "Transcription puis traduction",
         "Replication puis mitose",
@@ -2940,12 +2940,12 @@
         "Traduction puis replication"
       ],
       "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 27,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Trouver : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant.",
       "options": [
         "Copie identique stricte",
         "Brassage inter et intrachromosomique",
@@ -2953,12 +2953,12 @@
         "Suppression totale des genes"
       ],
       "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 28,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Donner : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ?",
       "options": [
         "Selection naturelle forte",
         "Mutation tres elevee",
@@ -2966,12 +2966,12 @@
         "Population tres petite"
       ],
       "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 29,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Quelle est : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple.",
       "options": [
         "Divergence oceanique",
         "Absence de mouvements",
@@ -2979,12 +2979,12 @@
         "Convergence de plaques lithospheriques"
       ],
       "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 30,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Calculer : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication.",
       "options": [
         "Production d'anticorps",
         "Phagocytose rapide",
@@ -2992,917 +2992,917 @@
         "Synthese de chlorophylle"
       ],
       "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 31,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Calculer : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 50)",
       "options": [
-        "ADN",
         "ATP",
+        "ADN",
         "Uree",
         "Acide lactique uniquement"
       ],
-      "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 32,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Déterminer : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 50)",
       "options": [
         "Replication puis mitose",
-        "Meiose puis fecondation",
         "Transcription puis traduction",
+        "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 33,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Trouver : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 50)",
       "options": [
         "Copie identique stricte",
         "Absence de recombinaison",
-        "Suppression totale des genes",
-        "Brassage inter et intrachromosomique"
+        "Brassage inter et intrachromosomique",
+        "Suppression totale des genes"
       ],
-      "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 34,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Donner : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 50)",
       "options": [
-        "Accouplements au hasard",
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 35,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Quelle est : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 50)",
       "options": [
-        "Divergence oceanique",
         "Convergence de plaques lithospheriques",
+        "Divergence oceanique",
         "Absence de mouvements",
         "Evaporation des oceans"
       ],
-      "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 36,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Calculer : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 50)",
       "options": [
         "Phagocytose rapide",
-        "Contraction musculaire",
         "Production d'anticorps",
+        "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 37,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Déterminer : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 50)",
       "options": [
         "ADN",
         "Uree",
-        "Acide lactique uniquement",
-        "ATP"
+        "ATP",
+        "Acide lactique uniquement"
       ],
-      "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "C",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 38,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Trouver : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 50)",
       "options": [
-        "Transcription puis traduction",
         "Replication puis mitose",
         "Meiose puis fecondation",
-        "Traduction puis replication"
+        "Traduction puis replication",
+        "Transcription puis traduction"
       ],
-      "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "D",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 39,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Donner : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 50)",
       "options": [
-        "Copie identique stricte",
         "Brassage inter et intrachromosomique",
+        "Copie identique stricte",
         "Absence de recombinaison",
         "Suppression totale des genes"
       ],
-      "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "A",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 40,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Quelle est : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 50)",
       "options": [
         "Selection naturelle forte",
-        "Mutation tres elevee",
         "Accouplements au hasard",
+        "Mutation tres elevee",
         "Population tres petite"
       ],
-      "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "B",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 41,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Calculer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 50)",
       "options": [
         "Divergence oceanique",
         "Absence de mouvements",
-        "Evaporation des oceans",
-        "Convergence de plaques lithospheriques"
+        "Convergence de plaques lithospheriques",
+        "Evaporation des oceans"
       ],
-      "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "C",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 42,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Déterminer : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 50)",
       "options": [
-        "Production d'anticorps",
         "Phagocytose rapide",
         "Contraction musculaire",
-        "Synthese de chlorophylle"
+        "Synthese de chlorophylle",
+        "Production d'anticorps"
       ],
-      "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "D",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 43,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Trouver : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 50)",
       "options": [
-        "ADN",
         "ATP",
+        "ADN",
         "Uree",
         "Acide lactique uniquement"
       ],
-      "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 44,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Donner : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 50)",
       "options": [
         "Replication puis mitose",
-        "Meiose puis fecondation",
         "Transcription puis traduction",
+        "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 45,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Quelle est : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 50)",
       "options": [
         "Copie identique stricte",
         "Absence de recombinaison",
-        "Suppression totale des genes",
-        "Brassage inter et intrachromosomique"
+        "Brassage inter et intrachromosomique",
+        "Suppression totale des genes"
       ],
-      "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 46,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Calculer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 50)",
       "options": [
-        "Accouplements au hasard",
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 47,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Déterminer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 50)",
       "options": [
-        "Divergence oceanique",
         "Convergence de plaques lithospheriques",
+        "Divergence oceanique",
         "Absence de mouvements",
         "Evaporation des oceans"
       ],
-      "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 48,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Trouver : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 50)",
       "options": [
         "Phagocytose rapide",
-        "Contraction musculaire",
         "Production d'anticorps",
+        "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 49,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Donner : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 50)",
       "options": [
         "ADN",
         "Uree",
-        "Acide lactique uniquement",
-        "ATP"
+        "ATP",
+        "Acide lactique uniquement"
       ],
-      "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "C",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 50,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Quelle est : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 50)",
       "options": [
-        "Transcription puis traduction",
         "Replication puis mitose",
         "Meiose puis fecondation",
-        "Traduction puis replication"
+        "Traduction puis replication",
+        "Transcription puis traduction"
       ],
-      "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "D",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 51,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Calculer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 50)",
       "options": [
-        "Copie identique stricte",
         "Brassage inter et intrachromosomique",
+        "Copie identique stricte",
         "Absence de recombinaison",
         "Suppression totale des genes"
       ],
-      "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "A",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 52,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Déterminer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 50)",
       "options": [
         "Selection naturelle forte",
-        "Mutation tres elevee",
         "Accouplements au hasard",
+        "Mutation tres elevee",
         "Population tres petite"
       ],
-      "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "B",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 53,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Trouver : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 50)",
       "options": [
         "Divergence oceanique",
         "Absence de mouvements",
-        "Evaporation des oceans",
-        "Convergence de plaques lithospheriques"
+        "Convergence de plaques lithospheriques",
+        "Evaporation des oceans"
       ],
-      "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "C",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 54,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Donner : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 50)",
       "options": [
-        "Production d'anticorps",
         "Phagocytose rapide",
         "Contraction musculaire",
-        "Synthese de chlorophylle"
+        "Synthese de chlorophylle",
+        "Production d'anticorps"
       ],
-      "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "D",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 55,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Quelle est : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 50)",
       "options": [
-        "ADN",
         "ATP",
+        "ADN",
         "Uree",
         "Acide lactique uniquement"
       ],
-      "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 56,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Calculer : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 50)",
       "options": [
         "Replication puis mitose",
-        "Meiose puis fecondation",
         "Transcription puis traduction",
+        "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 57,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Déterminer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 50)",
       "options": [
         "Copie identique stricte",
         "Absence de recombinaison",
-        "Suppression totale des genes",
-        "Brassage inter et intrachromosomique"
+        "Brassage inter et intrachromosomique",
+        "Suppression totale des genes"
       ],
-      "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 58,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Trouver : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 50)",
       "options": [
-        "Accouplements au hasard",
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 59,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Donner : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 50)",
       "options": [
-        "Divergence oceanique",
         "Convergence de plaques lithospheriques",
+        "Divergence oceanique",
         "Absence de mouvements",
         "Evaporation des oceans"
       ],
-      "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 60,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Quelle est : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 50)",
       "options": [
         "Phagocytose rapide",
-        "Contraction musculaire",
         "Production d'anticorps",
+        "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 61,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Déterminer : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 51)",
       "options": [
+        "ATP",
         "ADN",
         "Uree",
-        "Acide lactique uniquement",
-        "ATP"
+        "Acide lactique uniquement"
       ],
-      "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 62,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Trouver : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 51)",
       "options": [
-        "Transcription puis traduction",
         "Replication puis mitose",
+        "Transcription puis traduction",
         "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 63,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Donner : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 51)",
       "options": [
         "Copie identique stricte",
-        "Brassage inter et intrachromosomique",
         "Absence de recombinaison",
+        "Brassage inter et intrachromosomique",
         "Suppression totale des genes"
       ],
-      "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 64,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Quelle est : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 51)",
       "options": [
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Accouplements au hasard",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 65,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Calculer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 51)",
       "options": [
+        "Convergence de plaques lithospheriques",
         "Divergence oceanique",
         "Absence de mouvements",
-        "Evaporation des oceans",
-        "Convergence de plaques lithospheriques"
+        "Evaporation des oceans"
       ],
-      "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 66,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Déterminer : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 51)",
       "options": [
-        "Production d'anticorps",
         "Phagocytose rapide",
+        "Production d'anticorps",
         "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 67,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Trouver : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 51)",
       "options": [
         "ADN",
-        "ATP",
         "Uree",
+        "ATP",
         "Acide lactique uniquement"
       ],
-      "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "C",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 68,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Donner : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 51)",
       "options": [
         "Replication puis mitose",
         "Meiose puis fecondation",
-        "Transcription puis traduction",
-        "Traduction puis replication"
+        "Traduction puis replication",
+        "Transcription puis traduction"
       ],
-      "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "D",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 69,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Quelle est : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 51)",
       "options": [
+        "Brassage inter et intrachromosomique",
         "Copie identique stricte",
         "Absence de recombinaison",
-        "Suppression totale des genes",
-        "Brassage inter et intrachromosomique"
+        "Suppression totale des genes"
       ],
-      "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "A",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 70,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Calculer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 51)",
       "options": [
-        "Accouplements au hasard",
         "Selection naturelle forte",
+        "Accouplements au hasard",
         "Mutation tres elevee",
         "Population tres petite"
       ],
-      "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "B",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 71,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Déterminer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 51)",
       "options": [
         "Divergence oceanique",
-        "Convergence de plaques lithospheriques",
         "Absence de mouvements",
+        "Convergence de plaques lithospheriques",
         "Evaporation des oceans"
       ],
-      "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "C",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 72,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Trouver : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 51)",
       "options": [
         "Phagocytose rapide",
         "Contraction musculaire",
-        "Production d'anticorps",
-        "Synthese de chlorophylle"
+        "Synthese de chlorophylle",
+        "Production d'anticorps"
       ],
-      "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "D",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 73,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Donner : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 51)",
       "options": [
+        "ATP",
         "ADN",
         "Uree",
-        "Acide lactique uniquement",
-        "ATP"
+        "Acide lactique uniquement"
       ],
-      "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 74,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Quelle est : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 51)",
       "options": [
-        "Transcription puis traduction",
         "Replication puis mitose",
+        "Transcription puis traduction",
         "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 75,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Calculer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 51)",
       "options": [
         "Copie identique stricte",
-        "Brassage inter et intrachromosomique",
         "Absence de recombinaison",
+        "Brassage inter et intrachromosomique",
         "Suppression totale des genes"
       ],
-      "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 76,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Déterminer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 51)",
       "options": [
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Accouplements au hasard",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 77,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Trouver : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 51)",
       "options": [
+        "Convergence de plaques lithospheriques",
         "Divergence oceanique",
         "Absence de mouvements",
-        "Evaporation des oceans",
-        "Convergence de plaques lithospheriques"
+        "Evaporation des oceans"
       ],
-      "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 78,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Donner : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 51)",
       "options": [
-        "Production d'anticorps",
         "Phagocytose rapide",
+        "Production d'anticorps",
         "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 79,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Quelle est : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 51)",
       "options": [
         "ADN",
-        "ATP",
         "Uree",
+        "ATP",
         "Acide lactique uniquement"
       ],
-      "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "C",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 80,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Calculer : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 51)",
       "options": [
         "Replication puis mitose",
         "Meiose puis fecondation",
-        "Transcription puis traduction",
-        "Traduction puis replication"
+        "Traduction puis replication",
+        "Transcription puis traduction"
       ],
-      "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "D",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 81,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Déterminer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 51)",
       "options": [
+        "Brassage inter et intrachromosomique",
         "Copie identique stricte",
         "Absence de recombinaison",
-        "Suppression totale des genes",
-        "Brassage inter et intrachromosomique"
+        "Suppression totale des genes"
       ],
-      "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "A",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 82,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Trouver : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 51)",
       "options": [
-        "Accouplements au hasard",
         "Selection naturelle forte",
+        "Accouplements au hasard",
         "Mutation tres elevee",
         "Population tres petite"
       ],
-      "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "B",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 83,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Donner : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 51)",
       "options": [
         "Divergence oceanique",
-        "Convergence de plaques lithospheriques",
         "Absence de mouvements",
+        "Convergence de plaques lithospheriques",
         "Evaporation des oceans"
       ],
-      "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "C",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 84,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Quelle est : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 51)",
       "options": [
         "Phagocytose rapide",
         "Contraction musculaire",
-        "Production d'anticorps",
-        "Synthese de chlorophylle"
+        "Synthese de chlorophylle",
+        "Production d'anticorps"
       ],
-      "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "D",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 85,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Calculer : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 51)",
       "options": [
+        "ATP",
         "ADN",
         "Uree",
-        "Acide lactique uniquement",
-        "ATP"
+        "Acide lactique uniquement"
       ],
-      "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 86,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Déterminer : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 51)",
       "options": [
-        "Transcription puis traduction",
         "Replication puis mitose",
+        "Transcription puis traduction",
         "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 87,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Trouver : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 51)",
       "options": [
         "Copie identique stricte",
-        "Brassage inter et intrachromosomique",
         "Absence de recombinaison",
+        "Brassage inter et intrachromosomique",
         "Suppression totale des genes"
       ],
-      "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 88,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Donner : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 51)",
       "options": [
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Accouplements au hasard",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 89,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Quelle est : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 51)",
       "options": [
+        "Convergence de plaques lithospheriques",
         "Divergence oceanique",
         "Absence de mouvements",
-        "Evaporation des oceans",
-        "Convergence de plaques lithospheriques"
+        "Evaporation des oceans"
       ],
-      "correct": "D",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 90,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Calculer : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 51)",
       "options": [
-        "Production d'anticorps",
         "Phagocytose rapide",
+        "Production d'anticorps",
         "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "A",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 91,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Trouver : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 52)",
       "options": [
-        "ADN",
         "ATP",
+        "ADN",
         "Uree",
         "Acide lactique uniquement"
       ],
-      "correct": "B",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "A",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 92,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Donner : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 52)",
       "options": [
         "Replication puis mitose",
-        "Meiose puis fecondation",
         "Transcription puis traduction",
+        "Meiose puis fecondation",
         "Traduction puis replication"
       ],
-      "correct": "C",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "B",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 93,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Quelle est : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 52)",
       "options": [
         "Copie identique stricte",
         "Absence de recombinaison",
-        "Suppression totale des genes",
-        "Brassage inter et intrachromosomique"
+        "Brassage inter et intrachromosomique",
+        "Suppression totale des genes"
       ],
-      "correct": "D",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "C",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 94,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Calculer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 52)",
       "options": [
-        "Accouplements au hasard",
         "Selection naturelle forte",
         "Mutation tres elevee",
-        "Population tres petite"
+        "Population tres petite",
+        "Accouplements au hasard"
       ],
-      "correct": "A",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "D",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     },
     {
       "id": 95,
       "topic": "Formation des chaines de montagnes et tectonique des plaques",
-      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "question": "Déterminer : Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. Donner un exemple. (variante 52)",
       "options": [
-        "Divergence oceanique",
         "Convergence de plaques lithospheriques",
+        "Divergence oceanique",
         "Absence de mouvements",
         "Evaporation des oceans"
       ],
-      "correct": "B",
-      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+      "correct": "A",
+      "explanation": "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     },
     {
       "id": 96,
       "topic": "Immunologie",
-      "question": "Les lymphocytes B sont principalement responsables de :",
+      "question": "Trouver : Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? Donner une phrase d'explication. (variante 52)",
       "options": [
         "Phagocytose rapide",
-        "Contraction musculaire",
         "Production d'anticorps",
+        "Contraction musculaire",
         "Synthese de chlorophylle"
       ],
-      "correct": "C",
-      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+      "correct": "B",
+      "explanation": "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
     },
     {
       "id": 97,
       "topic": "Consommation de la matiere organique et flux d'energie",
-      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "question": "Donner : Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. Quelle molécule est principalement formée lors de ce processus ? (variante 52)",
       "options": [
         "ADN",
         "Uree",
-        "Acide lactique uniquement",
-        "ATP"
+        "ATP",
+        "Acide lactique uniquement"
       ],
-      "correct": "D",
-      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+      "correct": "C",
+      "explanation": "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     },
     {
       "id": 98,
       "topic": "Expression du materiel genetique et genie genetique",
-      "question": "L'expression d'un gene comporte principalement :",
+      "question": "Quelle est : Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. Indiquer l'ordre correct des étapes. (variante 52)",
       "options": [
-        "Transcription puis traduction",
         "Replication puis mitose",
         "Meiose puis fecondation",
-        "Traduction puis replication"
+        "Traduction puis replication",
+        "Transcription puis traduction"
       ],
-      "correct": "A",
-      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+      "correct": "D",
+      "explanation": "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     },
     {
       "id": 99,
       "topic": "Transfert de l'information genetique et genetique humaine",
-      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "question": "Calculer : Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. Citer deux mécanismes intervenant. (variante 52)",
       "options": [
-        "Copie identique stricte",
         "Brassage inter et intrachromosomique",
+        "Copie identique stricte",
         "Absence de recombinaison",
         "Suppression totale des genes"
       ],
-      "correct": "B",
-      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+      "correct": "A",
+      "explanation": "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     },
     {
       "id": 100,
       "topic": "Variation et genetique des populations",
-      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "question": "Déterminer : Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ? (variante 52)",
       "options": [
         "Selection naturelle forte",
-        "Mutation tres elevee",
         "Accouplements au hasard",
+        "Mutation tres elevee",
         "Population tres petite"
       ],
-      "correct": "C",
-      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+      "correct": "B",
+      "explanation": "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     }
   ]
 }

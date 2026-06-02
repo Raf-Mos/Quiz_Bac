@@ -5,6 +5,14 @@ from pathlib import Path
 
 LETTERS = ["A", "B", "C", "D"]
 
+PREFIXES = [
+    "Calculer",
+    "Déterminer",
+    "Trouver",
+    "Donner",
+    "Quelle est",
+]
+
 
 MATH_TOPICS = [
     "Limites et continuite",
@@ -94,30 +102,41 @@ def gen_math(topic: str, qid: int):
         b = (k % 5) + 1
         c = (k % 6) + 1
         d = (k % 4) + 3
-        question = f"Calculer lim(x->+inf) ({a}x+{b})/({c}x+{d})."
+        question = (
+            f"Soit la fonction f définie sur R par f(x) = ({a}x + {b})/({c}x + {d}). "
+            "Déterminer la limite de f(x) lorsque x→+∞ et justifier la réponse en une phrase."
+        )
         correct = format_num(a / c)
         distractors = [format_num(c / a), format_num((a + b) / (c + d)), format_num(a + c)]
-        explanation = "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+        explanation = "Pour une fraction rationnelle de même degré, la limite en +∞ est le rapport des coefficients dominants a/c."
     elif topic == "Derivation et etude des fonctions":
         a = (k % 5) + 2
         b = (k % 4) + 1
         x0 = (k % 3) + 1
-        question = f"Soit f(x)={a}x^2-{b}x+1. Calculer f'({x0})."
+        question = (
+            f"Soit f définie par f(x) = {a}x^2 - {b}x + 1. (a) Déterminer f'(x). "
+            f"(b) Calculer f'({x0}) et expliquer brièvement la méthode."
+        )
         correct = format_num(2 * a * x0 - b)
         distractors = [format_num(a * x0 - b), format_num(2 * a - b), format_num(2 * a * x0 + b)]
-        explanation = "f'(x)=2ax-b. On remplace ensuite x par x0."
+        explanation = "f'(x)=2ax-b. On remplace ensuite x par x0 pour obtenir f'(x0)."
     elif topic == "Suites numeriques":
         u1 = (k % 6) + 1
         r = (k % 5) + 2
         n = (k % 8) + 3
-        question = f"Suite arithmetique: u1={u1}, raison r={r}. Calculer u{n}."
+        question = (
+            f"On considère la suite arithmétique de premier terme u1 = {u1} et raison r = {r}. "
+            f"Calculer u{n} et justifier la formule utilisée."
+        )
         correct = str(u1 + (n - 1) * r)
         distractors = [str(u1 + n * r), str(u1 + (n - 2) * r), str((n - 1) * r)]
-        explanation = "Pour une suite arithmetique, un = u1 + (n-1)r."
+        explanation = "Pour une suite arithmétique, u_n = u1 + (n-1)r."
     elif topic == "Fonctions primitives":
         a = (k % 7) + 1
         n = (k % 4) + 1
-        question = f"Une primitive de f(x)={a}x^{n} est :"
+        question = (
+            f"Donner une primitive F de la fonction f définie par f(x) = {a}x^{n} (n entier naturel), en indiquant la constante d'intégration."
+        )
         coef = a / (n + 1)
         correct = f"F(x)={format_num(coef)}x^{n+1}+C"
         distractors = [
@@ -128,57 +147,75 @@ def gen_math(topic: str, qid: int):
         explanation = "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
     elif topic == "Fonctions logarithmiques":
         a = (k % 4) + 2
-        question = f"Resoudre dans R: ln(x)={a}."
+        question = (
+            f"Résoudre l'équation ln(x) = {a} dans R^+. Donner la solution et préciser la condition sur x."
+        )
         correct = f"x=e^{a}"
         distractors = [f"x={a}e", f"x=ln({a})", f"x=e^-{a}"]
-        explanation = "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+        explanation = "On applique l'exponentielle: x = e^a, et on rappelle que x>0."
     elif topic == "Nombres complexes (Partie 1)":
         a = (k % 5) + 1
         b = (k % 4) + 2
-        question = f"Soit z={a}+{b}i. Le module |z| vaut :"
+        question = (
+            f"Soit z = {a} + {b}i. (a) Calculer le module |z|. (b) Justifier la formule utilisée."
+        )
         correct = format_num(math.sqrt(a * a + b * b))
         distractors = [str(a + b), format_num(abs(a - b)), str(a * b)]
         explanation = "|a+bi| = sqrt(a^2+b^2)."
     elif topic == "Fonctions exponentielles":
         a = (k % 5) + 2
-        question = f"Resoudre dans R: e^(2x)={a}."
+        question = (
+            f"Résoudre sur R l'équation e^(2x) = {a}. Indiquer la méthode utilisée et donner la solution."
+        )
         correct = f"x=(1/2)ln({a})"
         distractors = [f"x=2ln({a})", f"x=ln({a})", f"x=ln({a})/4"]
-        explanation = "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+        explanation = "On prend le logarithme puis on divise par 2: x = (1/2) ln(a)."
     elif topic == "Nombres complexes (Partie 2)":
         a = (k % 4) + 1
         b = (k % 3) + 2
-        question = f"Pour z={a}+{b}i, son conjugue est :"
+        question = (
+            f"Soit z = {a} + {b}i. Donner le conjugué de z et montrer brièvement qu'il permet d'obtenir un réel en multipliant z par son conjugué."
+        )
         correct = f"{a}-{b}i"
         distractors = [f"-{a}+{b}i", f"{a}+{b}i", f"-{a}-{b}i"]
-        explanation = "Le conjugue de a+bi est a-bi."
+        explanation = "Le conjugué de a+bi est a-bi ; z*conj(z)=a^2+b^2 est réel."
     elif topic == "Calcul integral":
         a = (k % 6) + 1
-        question = f"Calculer I=∫(de 0 a 1) {a}x^2 dx."
+        question = (
+            f"Calculer I = ∫_0^1 {a} x^2 dx. Présenter les étapes du calcul et donner la valeur exacte."
+        )
         correct = format_num(a / 3)
         distractors = [format_num(a / 2), format_num(a), format_num(3 * a)]
-        explanation = "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+        explanation = "∫x^2 dx = x^3/3 ; évaluer entre 0 et 1 donne I = a/3."
     elif topic == "Equations differentielles":
         lam = (k % 4) + 1
         y0 = (k % 5) + 2
-        question = f"Solution de y'={lam}y verifiant y(0)={y0} :"
+        question = (
+            f"Résoudre l'équation différentielle y' = {lam} y et trouver la solution vérifiant y(0) = {y0}. "
+            "Justifier la méthode choisie."
+        )
         correct = f"y={y0}e^{lam}t"
         distractors = [f"y={lam}e^{y0}t", f"y={y0}+{lam}t", f"y={y0}e^{-lam}t"]
-        explanation = "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+        explanation = "La solution générale est y = C e^{λ t}; appliquer y(0)=y0 donne C=y0."
     elif topic == "Geometrie dans l'espace":
         a = (k % 4) + 1
         b = (k % 5) + 1
         c = (k % 6) + 1
-        question = f"Dans R^3, u=({a},{b},0) et v=(0,{c},{b}). Le produit scalaire u.v vaut :"
+        question = (
+            f"Soient u = ({a}, {b}, 0) et v = (0, {c}, {b}) dans R^3. Calculer le produit scalaire u·v et expliquer la formule utilisée."
+        )
         correct = str(b * c)
         distractors = [str(a * c + b * b), str(a + b + c), str(a * b * c)]
-        explanation = "u.v = a*0 + b*c + 0*b = bc."
+        explanation = "u·v = a*0 + b*c + 0*b = b c."
     else:  # Denombrement et probabilites
         n = (k % 6) + 5
-        question = f"Combien y a-t-il de facons de choisir 2 eleves parmi {n} eleves ?"
+        question = (
+            f"Une classe compte {n} élèves. Combien de binômes distincts peut-on former (ordre non significatif) ? "
+            "Donnez la formule et expliquez le raisonnement."
+        )
         correct = str(n * (n - 1) // 2)
         distractors = [str(n * (n - 1)), str(n + 2), str(2 * n)]
-        explanation = "C(n,2)=n(n-1)/2."
+        explanation = "Nombre de combinaisons C(n,2) = n(n-1)/2."
 
     return question, correct, distractors, explanation
 
@@ -314,65 +351,121 @@ def gen_pc(topic: str, qid: int):
 
 def gen_svt(topic: str, qid: int):
     if topic == "Consommation de la matiere organique et flux d'energie":
-        question = "Au niveau cellulaire, la respiration permet principalement de produire :"
+        question = (
+            "Dans un écosystème aquatique, expliquer quel rôle joue la respiration cellulaire dans la production d'énergie pour la cellule. "
+            "Quelle molécule est principalement formée lors de ce processus ?"
+        )
         correct = "ATP"
         distractors = ["ADN", "Uree", "Acide lactique uniquement"]
-        explanation = "La respiration cellulaire transfere l'energie vers l'ATP."
+        explanation = "La respiration cellulaire transfère l'énergie vers l'ATP, molécule stockant l'énergie utilisable par la cellule."
     elif topic == "Expression du materiel genetique et genie genetique":
-        question = "L'expression d'un gene comporte principalement :"
+        question = (
+            "Décrire brièvement les étapes principales de l'expression d'un gène allant de l'ADN à la protéine. "
+            "Indiquer l'ordre correct des étapes."
+        )
         correct = "Transcription puis traduction"
         distractors = ["Replication puis mitose", "Meiose puis fecondation", "Traduction puis replication"]
-        explanation = "L'ADN est transcrit en ARNm puis traduit en proteine."
+        explanation = "L'ADN est transcrit en ARNm (transcription), puis l'ARNm est traduit en protéine (traduction)."
     elif topic == "Transfert de l'information genetique et genetique humaine":
-        question = "La meiose contribue a la diversite genetique car elle provoque :"
+        question = (
+            "Expliquez comment la méiose contribue à la diversité génétique chez les organismes diploïdes. "
+            "Citer deux mécanismes intervenant."
+        )
         correct = "Brassage inter et intrachromosomique"
         distractors = ["Copie identique stricte", "Absence de recombinaison", "Suppression totale des genes"]
-        explanation = "Le crossing-over et l'assortiment independant brassent les alleles."
+        explanation = "Le crossing-over (brassage intrachromosomique) et l'assortiment indépendant des chromosomes (brassage interchromosomique) augmentent la diversité."
     elif topic == "Variation et genetique des populations":
-        question = "Dans le modele de Hardy-Weinberg, une condition est :"
+        question = (
+            "Dans le modèle de Hardy–Weinberg, quelle hypothèse sur les accouplements est nécessaire pour conserver les fréquences génotypiques ?"
+        )
         correct = "Accouplements au hasard"
         distractors = ["Selection naturelle forte", "Mutation tres elevee", "Population tres petite"]
-        explanation = "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+        explanation = "L'équilibre suppose panmixie (accouplements au hasard), absence de sélection, grande population et pas de migration ni de mutation."
     elif topic == "Formation des chaines de montagnes et tectonique des plaques":
-        question = "La formation des chaines de montagnes est souvent liee a :"
+        question = (
+            "Expliquer comment la convergence de plaques lithosphériques conduit à la formation de chaînes de montagnes. "
+            "Donner un exemple."
+        )
         correct = "Convergence de plaques lithospheriques"
         distractors = ["Divergence oceanique", "Absence de mouvements", "Evaporation des oceans"]
-        explanation = "La convergence (collision/subduction) induit deformation et surrection."
+        explanation = "La collision ou la subduction entre plaques provoque plissement et surrection; exemple: Himalaya (collision Inde-Asie)."
     else:  # Immunologie
-        question = "Les lymphocytes B sont principalement responsables de :"
+        question = (
+            "Quel est le rôle principal des lymphocytes B dans la réponse immunitaire adaptative ? "
+            "Donner une phrase d'explication."
+        )
         correct = "Production d'anticorps"
         distractors = ["Phagocytose rapide", "Contraction musculaire", "Synthese de chlorophylle"]
-        explanation = "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+        explanation = "Les LB se différencient en plasmocytes qui sécrètent des anticorps spécifiques ciblant les antigènes."
 
     return question, correct, distractors, explanation
 
 
-def build_subject(subject_name: str, topics, generator, seed: int):
+def build_subject(subject_name: str, topics, generator, seed: int, seen_global: set):
     questions = []
-    for qid in range(1, 101):
-        topic = topics[(qid - 1) % len(topics)]
-        q_text, correct, distractors, explanation = generator(topic, qid)
-        options, correct_letter = make_options(correct, distractors, qid, seed)
+    pos = 0
+    # generate 100 questions, ensure uniqueness of (question + options)
+    while len(questions) < 100:
+        pos += 1
+        base_qid = pos
+        topic = topics[(pos - 1) % len(topics)]
 
-        questions.append(
-            {
-                "id": qid,
-                "topic": topic,
-                "question": q_text,
-                "options": options,
-                "correct": correct_letter,
-                "explanation": explanation,
-            }
-        )
+        attempt = 0
+        max_attempts = 50
+        while True:
+            qid = base_qid + attempt
+            q_text, correct, distractors, explanation = generator(topic, qid)
+            # add small variation prefix if not already starting with one
+            prefix = PREFIXES[qid % len(PREFIXES)]
+            if not any(q_text.startswith(p) for p in PREFIXES):
+                q_text = f"{prefix} : {q_text}"
+
+            options, correct_letter = make_options(correct, distractors, qid, seed)
+            # use normalized question text as uniqueness key (ignore punctuation/case)
+            key = q_text.strip().lower()
+            if key not in seen_global:
+                seen_global.add(key)
+                questions.append(
+                    {
+                        "id": len(questions) + 1,
+                        "topic": topic,
+                        "question": q_text,
+                        "options": options,
+                        "correct": correct_letter,
+                        "explanation": explanation,
+                    }
+                )
+                break
+            attempt += 1
+            if attempt >= max_attempts:
+                # force uniqueness by appending a variant tag
+                q_text_variant = q_text + f" (variante {attempt})"
+                options, correct_letter = make_options(correct, distractors, qid + attempt, seed)
+                key = q_text_variant.strip().lower()
+                if key not in seen_global:
+                    seen_global.add(key)
+                    questions.append(
+                        {
+                            "id": len(questions) + 1,
+                            "topic": topic,
+                            "question": q_text_variant,
+                            "options": options,
+                            "correct": correct_letter,
+                            "explanation": explanation,
+                        }
+                    )
+                    break
+                # if still colliding, keep incrementing attempts until accepted
 
     return questions
 
 
 def main():
+    seen = set()
     payload = {
-        "Maths": build_subject("Maths", MATH_TOPICS, gen_math, seed=0),
-        "PC": build_subject("PC", PC_TOPICS, gen_pc, seed=1),
-        "SVT": build_subject("SVT", SVT_TOPICS, gen_svt, seed=2),
+        "Maths": build_subject("Maths", MATH_TOPICS, gen_math, seed=0, seen_global=seen),
+        "PC": build_subject("PC", PC_TOPICS, gen_pc, seed=1, seen_global=seen),
+        "SVT": build_subject("SVT", SVT_TOPICS, gen_svt, seed=2, seen_global=seen),
     }
 
     out_path = Path("data") / "questions.json"

@@ -396,23 +396,34 @@ class ResultScreen(BaseScreen):
             ).pack(fill="x", padx=12, pady=(10, 2))
 
             user_answer = item["user_answer"] if item["user_answer"] is not None else "Aucune"
-            tk.Label(
-                card,
-                text=f"Votre reponse: {user_answer}",
-                font=FONT_TEXT,
-                bg=COLOR_PANEL,
-                fg=COLOR_TEXT,
-                anchor="w",
-            ).pack(fill="x", padx=12)
+            # Display all options and mark correct/user choices
+            opts = item.get("options", [])
+            user_letter = item.get("user_answer")
+            correct_letter = item.get("correct")
+            for idx, opt_text in enumerate(opts):
+                letter = ["A", "B", "C", "D"][idx]
+                badges = []
+                fg = COLOR_TEXT
+                if letter == correct_letter:
+                    badges.append("Bonne reponse")
+                    fg = COLOR_SUCCESS
+                if user_letter is not None and letter == user_letter:
+                    badges.append("Votre choix")
+                    # if user chose wrong, emphasize with accent
+                    if letter != correct_letter:
+                        fg = COLOR_ACCENT
 
-            tk.Label(
-                card,
-                text=f"Bonne reponse: {item['correct']}",
-                font=FONT_TEXT,
-                bg=COLOR_PANEL,
-                fg=COLOR_TEXT,
-                anchor="w",
-            ).pack(fill="x", padx=12)
+                badge_text = (" (" + ", ".join(badges) + ")") if badges else ""
+                tk.Label(
+                    card,
+                    text=f"{letter}) {opt_text}{badge_text}",
+                    font=FONT_TEXT,
+                    bg=COLOR_PANEL,
+                    fg=fg,
+                    anchor="w",
+                    justify="left",
+                    wraplength=760,
+                ).pack(fill="x", padx=12)
 
             tk.Label(
                 card,
