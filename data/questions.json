@@ -1,0 +1,3908 @@
+{
+  "Maths": [
+    {
+      "id": 1,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (3x+2)/(2x+4).",
+      "options": [
+        "0.667",
+        "1.5",
+        "0.833",
+        "5"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 2,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=4x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "9",
+        "5",
+        "21",
+        "27"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 3,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=5. Calculer u6.",
+      "options": [
+        "34",
+        "24",
+        "25",
+        "29"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 4,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=5x^1 est :",
+      "options": [
+        "F(x)=2.5x^2+C",
+        "F(x)=5x^0+C",
+        "F(x)=5x^2+C",
+        "F(x)=2.5x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 5,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 6,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=2+4i. Le module |z| vaut :",
+      "options": [
+        "6",
+        "2",
+        "4.472",
+        "8"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 7,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=4.",
+      "options": [
+        "x=2ln(4)",
+        "x=ln(4)",
+        "x=ln(4)/4",
+        "x=(1/2)ln(4)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 8,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 9,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 10,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=2 :",
+      "options": [
+        "y=3e^2t",
+        "y=2+3t",
+        "y=2e^3t",
+        "y=2e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 11,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,2,0) et v=(0,6,2). Le produit scalaire u.v vaut :",
+      "options": [
+        "28",
+        "48",
+        "12 (3)",
+        "12"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 12,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 13,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (8x+4)/(2x+4).",
+      "options": [
+        "0.25",
+        "4",
+        "2",
+        "10"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 14,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=6x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "15",
+        "9",
+        "33",
+        "39"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 15,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=2. Calculer u10.",
+      "options": [
+        "24",
+        "20",
+        "18",
+        "22"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 16,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=3x^1 est :",
+      "options": [
+        "F(x)=1.5x^2+C",
+        "F(x)=3x^0+C",
+        "F(x)=3x^2+C",
+        "F(x)=1.5x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 17,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 18,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=4+4i. Le module |z| vaut :",
+      "options": [
+        "8",
+        "0",
+        "5.657",
+        "16"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 19,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=6.",
+      "options": [
+        "x=2ln(6)",
+        "x=ln(6)",
+        "x=ln(6)/4",
+        "x=(1/2)ln(6)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 20,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 21,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 22,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=4 :",
+      "options": [
+        "y=3e^4t",
+        "y=4+3t",
+        "y=4e^3t",
+        "y=4e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 23,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,4,0) et v=(0,6,4). Le produit scalaire u.v vaut :",
+      "options": [
+        "40",
+        "14",
+        "96",
+        "24"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 24,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 25,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (6x+1)/(2x+4).",
+      "options": [
+        "0.333",
+        "3",
+        "1.167",
+        "8"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 26,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=3x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "6",
+        "3",
+        "15",
+        "21"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 27,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=4. Calculer u6.",
+      "options": [
+        "28",
+        "20",
+        "24 (3)",
+        "24"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 28,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=1x^1 est :",
+      "options": [
+        "F(x)=0.5x^2+C",
+        "F(x)=1x^0+C",
+        "F(x)=1x^2+C",
+        "F(x)=0.5x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 29,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 30,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=1+4i. Le module |z| vaut :",
+      "options": [
+        "5",
+        "3",
+        "4.123",
+        "4"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 31,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=3.",
+      "options": [
+        "x=2ln(3)",
+        "x=ln(3)",
+        "x=ln(3)/4",
+        "x=(1/2)ln(3)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 32,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 33,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 34,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=6 :",
+      "options": [
+        "y=3e^6t",
+        "y=6+3t",
+        "y=6e^3t",
+        "y=6e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 35,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,1,0) et v=(0,6,1). Le produit scalaire u.v vaut :",
+      "options": [
+        "25",
+        "11",
+        "24",
+        "6"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 36,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 37,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (4x+3)/(2x+4).",
+      "options": [
+        "0.5",
+        "2",
+        "1.167",
+        "6"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 38,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=5x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "12",
+        "7",
+        "27",
+        "33"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 39,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=6. Calculer u10.",
+      "options": [
+        "64",
+        "52",
+        "54",
+        "58"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 40,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=6x^1 est :",
+      "options": [
+        "F(x)=3x^2+C",
+        "F(x)=6x^0+C",
+        "F(x)=6x^2+C",
+        "F(x)=3x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 41,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 42,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=3+4i. Le module |z| vaut :",
+      "options": [
+        "7",
+        "1",
+        "5",
+        "12"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 43,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=5.",
+      "options": [
+        "x=2ln(5)",
+        "x=ln(5)",
+        "x=ln(5)/4",
+        "x=(1/2)ln(5)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 44,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 45,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 46,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=3 :",
+      "options": [
+        "y=3+3t",
+        "y=3e^-3t",
+        "y=3e^3t",
+        "y=3e^3t (3)"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 47,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,3,0) et v=(0,6,3). Le produit scalaire u.v vaut :",
+      "options": [
+        "33",
+        "13",
+        "72",
+        "18"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 48,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 49,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (2x+5)/(2x+4).",
+      "options": [
+        "1.167",
+        "1",
+        "4",
+        "1 (3)"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 50,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=2x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "3",
+        "1",
+        "9",
+        "15"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 51,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=3. Calculer u6.",
+      "options": [
+        "22",
+        "16",
+        "15",
+        "19"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 52,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=4x^1 est :",
+      "options": [
+        "F(x)=2x^2+C",
+        "F(x)=4x^0+C",
+        "F(x)=4x^2+C",
+        "F(x)=2x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 53,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 54,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=5+4i. Le module |z| vaut :",
+      "options": [
+        "9",
+        "1",
+        "6.403",
+        "20"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 55,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=2.",
+      "options": [
+        "x=2ln(2)",
+        "x=ln(2)",
+        "x=ln(2)/4",
+        "x=(1/2)ln(2)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 56,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 57,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 58,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=5 :",
+      "options": [
+        "y=3e^5t",
+        "y=5+3t",
+        "y=5e^3t",
+        "y=5e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 59,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,5,0) et v=(0,6,5). Le produit scalaire u.v vaut :",
+      "options": [
+        "49",
+        "15",
+        "120",
+        "30"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 60,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 61,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (7x+2)/(2x+4).",
+      "options": [
+        "0.286",
+        "3.5",
+        "1.5",
+        "9"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 62,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=4x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "9",
+        "5",
+        "21",
+        "27"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 63,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=5. Calculer u10.",
+      "options": [
+        "54",
+        "44",
+        "45",
+        "49"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 64,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=2x^1 est :",
+      "options": [
+        "F(x)=1x^2+C",
+        "F(x)=2x^0+C",
+        "F(x)=2x^2+C",
+        "F(x)=1x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 65,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 66,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=2+4i. Le module |z| vaut :",
+      "options": [
+        "6",
+        "2",
+        "4.472",
+        "8"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 67,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=4.",
+      "options": [
+        "x=2ln(4)",
+        "x=ln(4)",
+        "x=ln(4)/4",
+        "x=(1/2)ln(4)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 68,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 69,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 70,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=2 :",
+      "options": [
+        "y=3e^2t",
+        "y=2+3t",
+        "y=2e^3t",
+        "y=2e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 71,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,2,0) et v=(0,6,2). Le produit scalaire u.v vaut :",
+      "options": [
+        "28",
+        "48",
+        "12 (3)",
+        "12"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 72,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 73,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (5x+4)/(2x+4).",
+      "options": [
+        "0.4",
+        "2.5",
+        "1.5",
+        "7"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 74,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=6x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "15",
+        "9",
+        "33",
+        "39"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 75,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=2. Calculer u6.",
+      "options": [
+        "16",
+        "12",
+        "10",
+        "14"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 76,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=7x^1 est :",
+      "options": [
+        "F(x)=3.5x^2+C",
+        "F(x)=7x^0+C",
+        "F(x)=7x^2+C",
+        "F(x)=3.5x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 77,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 78,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=4+4i. Le module |z| vaut :",
+      "options": [
+        "8",
+        "0",
+        "5.657",
+        "16"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 79,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=6.",
+      "options": [
+        "x=2ln(6)",
+        "x=ln(6)",
+        "x=ln(6)/4",
+        "x=(1/2)ln(6)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 80,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 81,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 82,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=4 :",
+      "options": [
+        "y=3e^4t",
+        "y=4+3t",
+        "y=4e^3t",
+        "y=4e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 83,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,4,0) et v=(0,6,4). Le produit scalaire u.v vaut :",
+      "options": [
+        "40",
+        "14",
+        "96",
+        "24"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 84,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 85,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (3x+1)/(2x+4).",
+      "options": [
+        "0.667",
+        "1.5",
+        "5",
+        "1.5 (3)"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 86,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=3x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "6",
+        "3",
+        "15",
+        "21"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 87,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=4. Calculer u10.",
+      "options": [
+        "44",
+        "36",
+        "40 (3)",
+        "40"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 88,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=5x^1 est :",
+      "options": [
+        "F(x)=2.5x^2+C",
+        "F(x)=5x^0+C",
+        "F(x)=5x^2+C",
+        "F(x)=2.5x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    },
+    {
+      "id": 89,
+      "topic": "Fonctions logarithmiques",
+      "question": "Resoudre dans R: ln(x)=3.",
+      "options": [
+        "x=3e",
+        "x=e^3",
+        "x=ln(3)",
+        "x=e^-3"
+      ],
+      "correct": "B",
+      "explanation": "On applique l'exponentielle des deux cotes: x = e^a, avec x>0."
+    },
+    {
+      "id": 90,
+      "topic": "Nombres complexes (Partie 1)",
+      "question": "Soit z=1+4i. Le module |z| vaut :",
+      "options": [
+        "5",
+        "3",
+        "4.123",
+        "4"
+      ],
+      "correct": "C",
+      "explanation": "|a+bi| = sqrt(a^2+b^2)."
+    },
+    {
+      "id": 91,
+      "topic": "Fonctions exponentielles",
+      "question": "Resoudre dans R: e^(2x)=3.",
+      "options": [
+        "x=2ln(3)",
+        "x=ln(3)",
+        "x=ln(3)/4",
+        "x=(1/2)ln(3)"
+      ],
+      "correct": "D",
+      "explanation": "On prend ln puis on divise par 2: 2x=ln(a) donc x=ln(a)/2."
+    },
+    {
+      "id": 92,
+      "topic": "Nombres complexes (Partie 2)",
+      "question": "Pour z=1+4i, son conjugue est :",
+      "options": [
+        "1-4i",
+        "-1+4i",
+        "1+4i",
+        "-1-4i"
+      ],
+      "correct": "A",
+      "explanation": "Le conjugue de a+bi est a-bi."
+    },
+    {
+      "id": 93,
+      "topic": "Calcul integral",
+      "question": "Calculer I=∫(de 0 a 1) 4x^2 dx.",
+      "options": [
+        "2",
+        "1.333",
+        "4",
+        "12"
+      ],
+      "correct": "B",
+      "explanation": "∫x^2 dx = x^3/3. Entre 0 et 1: I=a/3."
+    },
+    {
+      "id": 94,
+      "topic": "Equations differentielles",
+      "question": "Solution de y'=3y verifiant y(0)=6 :",
+      "options": [
+        "y=3e^6t",
+        "y=6+3t",
+        "y=6e^3t",
+        "y=6e^-3t"
+      ],
+      "correct": "C",
+      "explanation": "La solution generale est y=Ce^(lambda t), puis C=y(0)."
+    },
+    {
+      "id": 95,
+      "topic": "Geometrie dans l'espace",
+      "question": "Dans R^3, u=(4,1,0) et v=(0,6,1). Le produit scalaire u.v vaut :",
+      "options": [
+        "25",
+        "11",
+        "24",
+        "6"
+      ],
+      "correct": "D",
+      "explanation": "u.v = a*0 + b*c + 0*b = bc."
+    },
+    {
+      "id": 96,
+      "topic": "Denombrement et probabilites",
+      "question": "Combien y a-t-il de facons de choisir 2 eleves parmi 5 eleves ?",
+      "options": [
+        "10",
+        "20",
+        "7",
+        "10 (3)"
+      ],
+      "correct": "A",
+      "explanation": "C(n,2)=n(n-1)/2."
+    },
+    {
+      "id": 97,
+      "topic": "Limites et continuite",
+      "question": "Calculer lim(x->+inf) (8x+3)/(2x+4).",
+      "options": [
+        "0.25",
+        "4",
+        "1.833",
+        "10"
+      ],
+      "correct": "B",
+      "explanation": "Pour une fraction rationnelle de meme degre, la limite en +inf est le rapport des coefficients dominants a/c."
+    },
+    {
+      "id": 98,
+      "topic": "Derivation et etude des fonctions",
+      "question": "Soit f(x)=5x^2-3x+1. Calculer f'(3).",
+      "options": [
+        "12",
+        "7",
+        "27",
+        "33"
+      ],
+      "correct": "C",
+      "explanation": "f'(x)=2ax-b. On remplace ensuite x par x0."
+    },
+    {
+      "id": 99,
+      "topic": "Suites numeriques",
+      "question": "Suite arithmetique: u1=4, raison r=6. Calculer u6.",
+      "options": [
+        "40",
+        "28",
+        "30",
+        "34"
+      ],
+      "correct": "D",
+      "explanation": "Pour une suite arithmetique, un = u1 + (n-1)r."
+    },
+    {
+      "id": 100,
+      "topic": "Fonctions primitives",
+      "question": "Une primitive de f(x)=3x^1 est :",
+      "options": [
+        "F(x)=1.5x^2+C",
+        "F(x)=3x^0+C",
+        "F(x)=3x^2+C",
+        "F(x)=1.5x^1+C"
+      ],
+      "correct": "A",
+      "explanation": "La primitive de ax^n est a/(n+1) x^(n+1) + C, pour n != -1."
+    }
+  ],
+  "PC": [
+    {
+      "id": 1,
+      "topic": "Ondes mecaniques progressives",
+      "question": "Une perturbation parcourt 111 m en 2 s. La vitesse de propagation vaut :",
+      "options": [
+        "0.018",
+        "222",
+        "55.5",
+        "109"
+      ],
+      "correct": "C",
+      "explanation": "La vitesse de propagation est v=d/t."
+    },
+    {
+      "id": 2,
+      "topic": "Ondes mecaniques progressives periodiques",
+      "question": "Pour une onde periodique de frequence f=7 Hz, la periode T vaut :",
+      "options": [
+        "7",
+        "3.5",
+        "0.286",
+        "0.143"
+      ],
+      "correct": "D",
+      "explanation": "T=1/f."
+    },
+    {
+      "id": 3,
+      "topic": "Propagation des ondes lumineuses",
+      "question": "Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
+      "options": [
+        "v=c/n",
+        "v=c*n",
+        "v=n/c",
+        "v=c+n"
+      ],
+      "correct": "A",
+      "explanation": "Dans un milieu transparent: v=c/n."
+    },
+    {
+      "id": 4,
+      "topic": "Transformations nucleaires",
+      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "options": [
+        "Un positon et un neutrino",
+        "Un electron et un antineutrino",
+        "Un proton",
+        "Un photon gamma uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La beta- emet e- et antineutrino electronique."
+    },
+    {
+      "id": 5,
+      "topic": "Noyau (masse et energie)",
+      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "options": [
+        "E=dm/c^2",
+        "E=dm*c",
+        "E=dm*c^2",
+        "E=dm+mc^2"
+      ],
+      "correct": "C",
+      "explanation": "Relation d'Einstein: E=dm c^2."
+    },
+    {
+      "id": 6,
+      "topic": "Dipole RC",
+      "question": "Pour R=2000 ohm et C=3e-06 F, la constante de temps tau vaut :",
+      "options": [
+        "666666666.667",
+        "0",
+        "2000",
+        "0.006"
+      ],
+      "correct": "D",
+      "explanation": "Pour un dipole RC, tau=RC."
+    },
+    {
+      "id": 7,
+      "topic": "Dipole RL",
+      "question": "Pour L=0.2 H et R=30 ohm, la constante de temps tau vaut :",
+      "options": [
+        "0.007",
+        "6",
+        "150",
+        "30.2"
+      ],
+      "correct": "A",
+      "explanation": "Pour un dipole RL, tau=L/R."
+    },
+    {
+      "id": 8,
+      "topic": "Oscillations libres d'un circuit RLC",
+      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "options": [
+        "Strictement constante",
+        "Pseudo-periodique amortie",
+        "Lineaire croissante",
+        "Exponentielle pure non oscillante"
+      ],
+      "correct": "B",
+      "explanation": "Le regime libre sous-amorti donne des oscillations amorties."
+    },
+    {
+      "id": 9,
+      "topic": "Transformations lentes et rapides",
+      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "options": [
+        "Instantanee",
+        "Toujours irreversible",
+        "Suffisamment lente",
+        "Toujours adiabatique"
+      ],
+      "correct": "C",
+      "explanation": "Une evolution lente permet de passer par des etats d'equilibre successifs."
+    },
+    {
+      "id": 10,
+      "topic": "Suivi temporel et vitesse de reaction",
+      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "options": [
+        "J.s^-1",
+        "m.s^-1",
+        "kg.m^-3",
+        "mol.L^-1.s^-1"
+      ],
+      "correct": "D",
+      "explanation": "La vitesse de reaction est une variation de concentration par unite de temps."
+    },
+    {
+      "id": 11,
+      "topic": "Transformations chimiques reversibles",
+      "question": "Une reaction reversible est caracterisee par :",
+      "options": [
+        "Deux sens direct et inverse",
+        "Un seul sens",
+        "Une vitesse nulle",
+        "Absence de reactifs"
+      ],
+      "correct": "A",
+      "explanation": "La reaction peut evoluer dans les deux sens."
+    },
+    {
+      "id": 12,
+      "topic": "Etat d'equilibre d'un systeme chimique",
+      "question": "A l'equilibre chimique, on a :",
+      "options": [
+        "reactifs nuls",
+        "vitesse_directe = vitesse_inverse",
+        "produits nuls",
+        "temperature nulle"
+      ],
+      "correct": "B",
+      "explanation": "L'equilibre dynamique correspond a l'egalite des vitesses."
+    },
+    {
+      "id": 13,
+      "topic": "Reactions acide-base",
+      "question": "Selon Brønsted, un acide est une espece qui :",
+      "options": [
+        "Capte un electron",
+        "Cede un neutron",
+        "Cede un proton H+",
+        "Augmente toujours le pH"
+      ],
+      "correct": "C",
+      "explanation": "Un acide de Brønsted est donneur de proton."
+    },
+    {
+      "id": 14,
+      "topic": "Lois de Newton",
+      "question": "Pour un solide de masse 5 kg et acceleration 3 m/s^2, la resultante vaut :",
+      "options": [
+        "8 N",
+        "1.6666666666666667 N",
+        "3 N",
+        "15 N"
+      ],
+      "correct": "D",
+      "explanation": "Deuxieme loi de Newton: somme(F)=m.a."
+    },
+    {
+      "id": 15,
+      "topic": "Chute libre verticale",
+      "question": "En chute libre sans frottements, l'acceleration est :",
+      "options": [
+        "g vers le bas",
+        "nulle",
+        "variable sinusoidale",
+        "horizontale"
+      ],
+      "correct": "A",
+      "explanation": "La seule force est le poids, donc a=g vers le bas."
+    },
+    {
+      "id": 16,
+      "topic": "Mouvement d'un projectile",
+      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "options": [
+        "Circulaire",
+        "Parabolique",
+        "Rectiligne uniforme",
+        "Exponentielle"
+      ],
+      "correct": "B",
+      "explanation": "Sous gravite uniforme, x(t) est affine et y(t) quadratique."
+    },
+    {
+      "id": 17,
+      "topic": "Mouvement de rotation",
+      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "options": [
+        "Somme(F)=J*alpha",
+        "Somme(M)=m*a",
+        "Somme(M) = J*alpha",
+        "P=J*omega"
+      ],
+      "correct": "C",
+      "explanation": "Autour d'un axe fixe, la somme des moments dynamiques vaut J alpha."
+    },
+    {
+      "id": 18,
+      "topic": "Systemes mecaniques oscillants",
+      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "options": [
+        "Amplitude initiale uniquement",
+        "Couleur du ressort",
+        "Pression atmospherique seulement",
+        "Parametres du systeme (m,k)"
+      ],
+      "correct": "D",
+      "explanation": "Exemple ressort-masse: T=2pi*sqrt(m/k)."
+    },
+    {
+      "id": 19,
+      "topic": "Aspects energetiques des oscillations",
+      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "options": [
+        "Conservee",
+        "Toujours nulle",
+        "Strictement croissante",
+        "Strictement decroissante"
+      ],
+      "correct": "A",
+      "explanation": "Sans dissipation, l'energie mecanique reste constante."
+    },
+    {
+      "id": 20,
+      "topic": "Evolution spontanee d'un systeme chimique",
+      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "options": [
+        "Un etat impossible",
+        "Un etat d'equilibre",
+        "Toujours reactifs purs",
+        "Temperature absolue nulle"
+      ],
+      "correct": "B",
+      "explanation": "Le systeme evolue spontanement vers l'equilibre thermodynamique."
+    },
+    {
+      "id": 21,
+      "topic": "Piles et production d'energie",
+      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "options": [
+        "Energie nucleaire",
+        "Energie lumineuse uniquement",
+        "Energie electrique",
+        "Aucune energie"
+      ],
+      "correct": "C",
+      "explanation": "Une pile transforme une energie chimique en energie electrique."
+    },
+    {
+      "id": 22,
+      "topic": "Esterification et hydrolyse",
+      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "options": [
+        "Un acide fort",
+        "Un sel uniquement",
+        "Du dioxygene",
+        "Un ester et de l'eau"
+      ],
+      "correct": "D",
+      "explanation": "Reaction classique: acide carboxylique + alcool <-> ester + eau."
+    },
+    {
+      "id": 23,
+      "topic": "Ondes mecaniques progressives",
+      "question": "Une perturbation parcourt 133 m en 4 s. La vitesse de propagation vaut :",
+      "options": [
+        "33.25",
+        "0.03",
+        "532",
+        "129"
+      ],
+      "correct": "A",
+      "explanation": "La vitesse de propagation est v=d/t."
+    },
+    {
+      "id": 24,
+      "topic": "Ondes mecaniques progressives periodiques",
+      "question": "Pour une onde periodique de frequence f=14 Hz, la periode T vaut :",
+      "options": [
+        "14",
+        "0.071",
+        "7",
+        "0.143"
+      ],
+      "correct": "B",
+      "explanation": "T=1/f."
+    },
+    {
+      "id": 25,
+      "topic": "Propagation des ondes lumineuses",
+      "question": "Dans un milieu d'indice n=2.2, la vitesse de la lumiere vaut :",
+      "options": [
+        "v=c*n",
+        "v=n/c",
+        "v=c/n",
+        "v=c+n"
+      ],
+      "correct": "C",
+      "explanation": "Dans un milieu transparent: v=c/n."
+    },
+    {
+      "id": 26,
+      "topic": "Transformations nucleaires",
+      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "options": [
+        "Un positon et un neutrino",
+        "Un proton",
+        "Un photon gamma uniquement",
+        "Un electron et un antineutrino"
+      ],
+      "correct": "D",
+      "explanation": "La beta- emet e- et antineutrino electronique."
+    },
+    {
+      "id": 27,
+      "topic": "Noyau (masse et energie)",
+      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "options": [
+        "E=dm*c^2",
+        "E=dm/c^2",
+        "E=dm*c",
+        "E=dm+mc^2"
+      ],
+      "correct": "A",
+      "explanation": "Relation d'Einstein: E=dm c^2."
+    },
+    {
+      "id": 28,
+      "topic": "Dipole RC",
+      "question": "Pour R=4000 ohm et C=1e-06 F, la constante de temps tau vaut :",
+      "options": [
+        "4000000000",
+        "0.004",
+        "0",
+        "4000"
+      ],
+      "correct": "B",
+      "explanation": "Pour un dipole RC, tau=RC."
+    },
+    {
+      "id": 29,
+      "topic": "Dipole RL",
+      "question": "Pour L=0.6000000000000001 H et R=50 ohm, la constante de temps tau vaut :",
+      "options": [
+        "30",
+        "83.333",
+        "0.012",
+        "50.6"
+      ],
+      "correct": "C",
+      "explanation": "Pour un dipole RL, tau=L/R."
+    },
+    {
+      "id": 30,
+      "topic": "Oscillations libres d'un circuit RLC",
+      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "options": [
+        "Strictement constante",
+        "Lineaire croissante",
+        "Exponentielle pure non oscillante",
+        "Pseudo-periodique amortie"
+      ],
+      "correct": "D",
+      "explanation": "Le regime libre sous-amorti donne des oscillations amorties."
+    },
+    {
+      "id": 31,
+      "topic": "Transformations lentes et rapides",
+      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "options": [
+        "Suffisamment lente",
+        "Instantanee",
+        "Toujours irreversible",
+        "Toujours adiabatique"
+      ],
+      "correct": "A",
+      "explanation": "Une evolution lente permet de passer par des etats d'equilibre successifs."
+    },
+    {
+      "id": 32,
+      "topic": "Suivi temporel et vitesse de reaction",
+      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "options": [
+        "J.s^-1",
+        "mol.L^-1.s^-1",
+        "m.s^-1",
+        "kg.m^-3"
+      ],
+      "correct": "B",
+      "explanation": "La vitesse de reaction est une variation de concentration par unite de temps."
+    },
+    {
+      "id": 33,
+      "topic": "Transformations chimiques reversibles",
+      "question": "Une reaction reversible est caracterisee par :",
+      "options": [
+        "Un seul sens",
+        "Une vitesse nulle",
+        "Deux sens direct et inverse",
+        "Absence de reactifs"
+      ],
+      "correct": "C",
+      "explanation": "La reaction peut evoluer dans les deux sens."
+    },
+    {
+      "id": 34,
+      "topic": "Etat d'equilibre d'un systeme chimique",
+      "question": "A l'equilibre chimique, on a :",
+      "options": [
+        "reactifs nuls",
+        "produits nuls",
+        "temperature nulle",
+        "vitesse_directe = vitesse_inverse"
+      ],
+      "correct": "D",
+      "explanation": "L'equilibre dynamique correspond a l'egalite des vitesses."
+    },
+    {
+      "id": 35,
+      "topic": "Reactions acide-base",
+      "question": "Selon Brønsted, un acide est une espece qui :",
+      "options": [
+        "Cede un proton H+",
+        "Capte un electron",
+        "Cede un neutron",
+        "Augmente toujours le pH"
+      ],
+      "correct": "A",
+      "explanation": "Un acide de Brønsted est donneur de proton."
+    },
+    {
+      "id": 36,
+      "topic": "Lois de Newton",
+      "question": "Pour un solide de masse 2 kg et acceleration 1 m/s^2, la resultante vaut :",
+      "options": [
+        "3 N",
+        "2 N",
+        "2.0 N",
+        "1 N"
+      ],
+      "correct": "B",
+      "explanation": "Deuxieme loi de Newton: somme(F)=m.a."
+    },
+    {
+      "id": 37,
+      "topic": "Chute libre verticale",
+      "question": "En chute libre sans frottements, l'acceleration est :",
+      "options": [
+        "nulle",
+        "variable sinusoidale",
+        "g vers le bas",
+        "horizontale"
+      ],
+      "correct": "C",
+      "explanation": "La seule force est le poids, donc a=g vers le bas."
+    },
+    {
+      "id": 38,
+      "topic": "Mouvement d'un projectile",
+      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "options": [
+        "Circulaire",
+        "Rectiligne uniforme",
+        "Exponentielle",
+        "Parabolique"
+      ],
+      "correct": "D",
+      "explanation": "Sous gravite uniforme, x(t) est affine et y(t) quadratique."
+    },
+    {
+      "id": 39,
+      "topic": "Mouvement de rotation",
+      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "options": [
+        "Somme(M) = J*alpha",
+        "Somme(F)=J*alpha",
+        "Somme(M)=m*a",
+        "P=J*omega"
+      ],
+      "correct": "A",
+      "explanation": "Autour d'un axe fixe, la somme des moments dynamiques vaut J alpha."
+    },
+    {
+      "id": 40,
+      "topic": "Systemes mecaniques oscillants",
+      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "options": [
+        "Amplitude initiale uniquement",
+        "Parametres du systeme (m,k)",
+        "Couleur du ressort",
+        "Pression atmospherique seulement"
+      ],
+      "correct": "B",
+      "explanation": "Exemple ressort-masse: T=2pi*sqrt(m/k)."
+    },
+    {
+      "id": 41,
+      "topic": "Aspects energetiques des oscillations",
+      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "options": [
+        "Toujours nulle",
+        "Strictement croissante",
+        "Conservee",
+        "Strictement decroissante"
+      ],
+      "correct": "C",
+      "explanation": "Sans dissipation, l'energie mecanique reste constante."
+    },
+    {
+      "id": 42,
+      "topic": "Evolution spontanee d'un systeme chimique",
+      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "options": [
+        "Un etat impossible",
+        "Toujours reactifs purs",
+        "Temperature absolue nulle",
+        "Un etat d'equilibre"
+      ],
+      "correct": "D",
+      "explanation": "Le systeme evolue spontanement vers l'equilibre thermodynamique."
+    },
+    {
+      "id": 43,
+      "topic": "Piles et production d'energie",
+      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "options": [
+        "Energie electrique",
+        "Energie nucleaire",
+        "Energie lumineuse uniquement",
+        "Aucune energie"
+      ],
+      "correct": "A",
+      "explanation": "Une pile transforme une energie chimique en energie electrique."
+    },
+    {
+      "id": 44,
+      "topic": "Esterification et hydrolyse",
+      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "options": [
+        "Un acide fort",
+        "Un ester et de l'eau",
+        "Un sel uniquement",
+        "Du dioxygene"
+      ],
+      "correct": "B",
+      "explanation": "Reaction classique: acide carboxylique + alcool <-> ester + eau."
+    },
+    {
+      "id": 45,
+      "topic": "Ondes mecaniques progressives",
+      "question": "Une perturbation parcourt 155 m en 1 s. La vitesse de propagation vaut :",
+      "options": [
+        "0.006",
+        "154",
+        "155",
+        "155 (3)"
+      ],
+      "correct": "C",
+      "explanation": "La vitesse de propagation est v=d/t."
+    },
+    {
+      "id": 46,
+      "topic": "Ondes mecaniques progressives periodiques",
+      "question": "Pour une onde periodique de frequence f=6 Hz, la periode T vaut :",
+      "options": [
+        "6",
+        "3",
+        "0.333",
+        "0.167"
+      ],
+      "correct": "D",
+      "explanation": "T=1/f."
+    },
+    {
+      "id": 47,
+      "topic": "Propagation des ondes lumineuses",
+      "question": "Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
+      "options": [
+        "v=c/n",
+        "v=c*n",
+        "v=n/c",
+        "v=c+n"
+      ],
+      "correct": "A",
+      "explanation": "Dans un milieu transparent: v=c/n."
+    },
+    {
+      "id": 48,
+      "topic": "Transformations nucleaires",
+      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "options": [
+        "Un positon et un neutrino",
+        "Un electron et un antineutrino",
+        "Un proton",
+        "Un photon gamma uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La beta- emet e- et antineutrino electronique."
+    },
+    {
+      "id": 49,
+      "topic": "Noyau (masse et energie)",
+      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "options": [
+        "E=dm/c^2",
+        "E=dm*c",
+        "E=dm*c^2",
+        "E=dm+mc^2"
+      ],
+      "correct": "C",
+      "explanation": "Relation d'Einstein: E=dm c^2."
+    },
+    {
+      "id": 50,
+      "topic": "Dipole RC",
+      "question": "Pour R=1000 ohm et C=3e-06 F, la constante de temps tau vaut :",
+      "options": [
+        "333333333.333",
+        "0",
+        "1000",
+        "0.003"
+      ],
+      "correct": "D",
+      "explanation": "Pour un dipole RC, tau=RC."
+    },
+    {
+      "id": 51,
+      "topic": "Dipole RL",
+      "question": "Pour L=0.4 H et R=20 ohm, la constante de temps tau vaut :",
+      "options": [
+        "0.02",
+        "8",
+        "50",
+        "20.4"
+      ],
+      "correct": "A",
+      "explanation": "Pour un dipole RL, tau=L/R."
+    },
+    {
+      "id": 52,
+      "topic": "Oscillations libres d'un circuit RLC",
+      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "options": [
+        "Strictement constante",
+        "Pseudo-periodique amortie",
+        "Lineaire croissante",
+        "Exponentielle pure non oscillante"
+      ],
+      "correct": "B",
+      "explanation": "Le regime libre sous-amorti donne des oscillations amorties."
+    },
+    {
+      "id": 53,
+      "topic": "Transformations lentes et rapides",
+      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "options": [
+        "Instantanee",
+        "Toujours irreversible",
+        "Suffisamment lente",
+        "Toujours adiabatique"
+      ],
+      "correct": "C",
+      "explanation": "Une evolution lente permet de passer par des etats d'equilibre successifs."
+    },
+    {
+      "id": 54,
+      "topic": "Suivi temporel et vitesse de reaction",
+      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "options": [
+        "J.s^-1",
+        "m.s^-1",
+        "kg.m^-3",
+        "mol.L^-1.s^-1"
+      ],
+      "correct": "D",
+      "explanation": "La vitesse de reaction est une variation de concentration par unite de temps."
+    },
+    {
+      "id": 55,
+      "topic": "Transformations chimiques reversibles",
+      "question": "Une reaction reversible est caracterisee par :",
+      "options": [
+        "Deux sens direct et inverse",
+        "Un seul sens",
+        "Une vitesse nulle",
+        "Absence de reactifs"
+      ],
+      "correct": "A",
+      "explanation": "La reaction peut evoluer dans les deux sens."
+    },
+    {
+      "id": 56,
+      "topic": "Etat d'equilibre d'un systeme chimique",
+      "question": "A l'equilibre chimique, on a :",
+      "options": [
+        "reactifs nuls",
+        "vitesse_directe = vitesse_inverse",
+        "produits nuls",
+        "temperature nulle"
+      ],
+      "correct": "B",
+      "explanation": "L'equilibre dynamique correspond a l'egalite des vitesses."
+    },
+    {
+      "id": 57,
+      "topic": "Reactions acide-base",
+      "question": "Selon Brønsted, un acide est une espece qui :",
+      "options": [
+        "Capte un electron",
+        "Cede un neutron",
+        "Cede un proton H+",
+        "Augmente toujours le pH"
+      ],
+      "correct": "C",
+      "explanation": "Un acide de Brønsted est donneur de proton."
+    },
+    {
+      "id": 58,
+      "topic": "Lois de Newton",
+      "question": "Pour un solide de masse 4 kg et acceleration 5 m/s^2, la resultante vaut :",
+      "options": [
+        "9 N",
+        "0.8 N",
+        "5 N",
+        "20 N"
+      ],
+      "correct": "D",
+      "explanation": "Deuxieme loi de Newton: somme(F)=m.a."
+    },
+    {
+      "id": 59,
+      "topic": "Chute libre verticale",
+      "question": "En chute libre sans frottements, l'acceleration est :",
+      "options": [
+        "g vers le bas",
+        "nulle",
+        "variable sinusoidale",
+        "horizontale"
+      ],
+      "correct": "A",
+      "explanation": "La seule force est le poids, donc a=g vers le bas."
+    },
+    {
+      "id": 60,
+      "topic": "Mouvement d'un projectile",
+      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "options": [
+        "Circulaire",
+        "Parabolique",
+        "Rectiligne uniforme",
+        "Exponentielle"
+      ],
+      "correct": "B",
+      "explanation": "Sous gravite uniforme, x(t) est affine et y(t) quadratique."
+    },
+    {
+      "id": 61,
+      "topic": "Mouvement de rotation",
+      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "options": [
+        "Somme(F)=J*alpha",
+        "Somme(M)=m*a",
+        "Somme(M) = J*alpha",
+        "P=J*omega"
+      ],
+      "correct": "C",
+      "explanation": "Autour d'un axe fixe, la somme des moments dynamiques vaut J alpha."
+    },
+    {
+      "id": 62,
+      "topic": "Systemes mecaniques oscillants",
+      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "options": [
+        "Amplitude initiale uniquement",
+        "Couleur du ressort",
+        "Pression atmospherique seulement",
+        "Parametres du systeme (m,k)"
+      ],
+      "correct": "D",
+      "explanation": "Exemple ressort-masse: T=2pi*sqrt(m/k)."
+    },
+    {
+      "id": 63,
+      "topic": "Aspects energetiques des oscillations",
+      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "options": [
+        "Conservee",
+        "Toujours nulle",
+        "Strictement croissante",
+        "Strictement decroissante"
+      ],
+      "correct": "A",
+      "explanation": "Sans dissipation, l'energie mecanique reste constante."
+    },
+    {
+      "id": 64,
+      "topic": "Evolution spontanee d'un systeme chimique",
+      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "options": [
+        "Un etat impossible",
+        "Un etat d'equilibre",
+        "Toujours reactifs purs",
+        "Temperature absolue nulle"
+      ],
+      "correct": "B",
+      "explanation": "Le systeme evolue spontanement vers l'equilibre thermodynamique."
+    },
+    {
+      "id": 65,
+      "topic": "Piles et production d'energie",
+      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "options": [
+        "Energie nucleaire",
+        "Energie lumineuse uniquement",
+        "Energie electrique",
+        "Aucune energie"
+      ],
+      "correct": "C",
+      "explanation": "Une pile transforme une energie chimique en energie electrique."
+    },
+    {
+      "id": 66,
+      "topic": "Esterification et hydrolyse",
+      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "options": [
+        "Un acide fort",
+        "Un sel uniquement",
+        "Du dioxygene",
+        "Un ester et de l'eau"
+      ],
+      "correct": "D",
+      "explanation": "Reaction classique: acide carboxylique + alcool <-> ester + eau."
+    },
+    {
+      "id": 67,
+      "topic": "Ondes mecaniques progressives",
+      "question": "Une perturbation parcourt 177 m en 3 s. La vitesse de propagation vaut :",
+      "options": [
+        "59",
+        "0.017",
+        "531",
+        "174"
+      ],
+      "correct": "A",
+      "explanation": "La vitesse de propagation est v=d/t."
+    },
+    {
+      "id": 68,
+      "topic": "Ondes mecaniques progressives periodiques",
+      "question": "Pour une onde periodique de frequence f=13 Hz, la periode T vaut :",
+      "options": [
+        "13",
+        "0.077",
+        "6.5",
+        "0.154"
+      ],
+      "correct": "B",
+      "explanation": "T=1/f."
+    },
+    {
+      "id": 69,
+      "topic": "Propagation des ondes lumineuses",
+      "question": "Dans un milieu d'indice n=2.2, la vitesse de la lumiere vaut :",
+      "options": [
+        "v=c*n",
+        "v=n/c",
+        "v=c/n",
+        "v=c+n"
+      ],
+      "correct": "C",
+      "explanation": "Dans un milieu transparent: v=c/n."
+    },
+    {
+      "id": 70,
+      "topic": "Transformations nucleaires",
+      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "options": [
+        "Un positon et un neutrino",
+        "Un proton",
+        "Un photon gamma uniquement",
+        "Un electron et un antineutrino"
+      ],
+      "correct": "D",
+      "explanation": "La beta- emet e- et antineutrino electronique."
+    },
+    {
+      "id": 71,
+      "topic": "Noyau (masse et energie)",
+      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "options": [
+        "E=dm*c^2",
+        "E=dm/c^2",
+        "E=dm*c",
+        "E=dm+mc^2"
+      ],
+      "correct": "A",
+      "explanation": "Relation d'Einstein: E=dm c^2."
+    },
+    {
+      "id": 72,
+      "topic": "Dipole RC",
+      "question": "Pour R=3000 ohm et C=1e-06 F, la constante de temps tau vaut :",
+      "options": [
+        "3000000000",
+        "0.003",
+        "0",
+        "3000"
+      ],
+      "correct": "B",
+      "explanation": "Pour un dipole RC, tau=RC."
+    },
+    {
+      "id": 73,
+      "topic": "Dipole RL",
+      "question": "Pour L=0.2 H et R=40 ohm, la constante de temps tau vaut :",
+      "options": [
+        "8",
+        "200",
+        "0.005",
+        "40.2"
+      ],
+      "correct": "C",
+      "explanation": "Pour un dipole RL, tau=L/R."
+    },
+    {
+      "id": 74,
+      "topic": "Oscillations libres d'un circuit RLC",
+      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "options": [
+        "Strictement constante",
+        "Lineaire croissante",
+        "Exponentielle pure non oscillante",
+        "Pseudo-periodique amortie"
+      ],
+      "correct": "D",
+      "explanation": "Le regime libre sous-amorti donne des oscillations amorties."
+    },
+    {
+      "id": 75,
+      "topic": "Transformations lentes et rapides",
+      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "options": [
+        "Suffisamment lente",
+        "Instantanee",
+        "Toujours irreversible",
+        "Toujours adiabatique"
+      ],
+      "correct": "A",
+      "explanation": "Une evolution lente permet de passer par des etats d'equilibre successifs."
+    },
+    {
+      "id": 76,
+      "topic": "Suivi temporel et vitesse de reaction",
+      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "options": [
+        "J.s^-1",
+        "mol.L^-1.s^-1",
+        "m.s^-1",
+        "kg.m^-3"
+      ],
+      "correct": "B",
+      "explanation": "La vitesse de reaction est une variation de concentration par unite de temps."
+    },
+    {
+      "id": 77,
+      "topic": "Transformations chimiques reversibles",
+      "question": "Une reaction reversible est caracterisee par :",
+      "options": [
+        "Un seul sens",
+        "Une vitesse nulle",
+        "Deux sens direct et inverse",
+        "Absence de reactifs"
+      ],
+      "correct": "C",
+      "explanation": "La reaction peut evoluer dans les deux sens."
+    },
+    {
+      "id": 78,
+      "topic": "Etat d'equilibre d'un systeme chimique",
+      "question": "A l'equilibre chimique, on a :",
+      "options": [
+        "reactifs nuls",
+        "produits nuls",
+        "temperature nulle",
+        "vitesse_directe = vitesse_inverse"
+      ],
+      "correct": "D",
+      "explanation": "L'equilibre dynamique correspond a l'egalite des vitesses."
+    },
+    {
+      "id": 79,
+      "topic": "Reactions acide-base",
+      "question": "Selon Brønsted, un acide est une espece qui :",
+      "options": [
+        "Cede un proton H+",
+        "Capte un electron",
+        "Cede un neutron",
+        "Augmente toujours le pH"
+      ],
+      "correct": "A",
+      "explanation": "Un acide de Brønsted est donneur de proton."
+    },
+    {
+      "id": 80,
+      "topic": "Lois de Newton",
+      "question": "Pour un solide de masse 1 kg et acceleration 3 m/s^2, la resultante vaut :",
+      "options": [
+        "4 N",
+        "3 N",
+        "0.3333333333333333 N",
+        "3 N (3)"
+      ],
+      "correct": "B",
+      "explanation": "Deuxieme loi de Newton: somme(F)=m.a."
+    },
+    {
+      "id": 81,
+      "topic": "Chute libre verticale",
+      "question": "En chute libre sans frottements, l'acceleration est :",
+      "options": [
+        "nulle",
+        "variable sinusoidale",
+        "g vers le bas",
+        "horizontale"
+      ],
+      "correct": "C",
+      "explanation": "La seule force est le poids, donc a=g vers le bas."
+    },
+    {
+      "id": 82,
+      "topic": "Mouvement d'un projectile",
+      "question": "Sans frottement de l'air, la trajectoire d'un projectile est :",
+      "options": [
+        "Circulaire",
+        "Rectiligne uniforme",
+        "Exponentielle",
+        "Parabolique"
+      ],
+      "correct": "D",
+      "explanation": "Sous gravite uniforme, x(t) est affine et y(t) quadratique."
+    },
+    {
+      "id": 83,
+      "topic": "Mouvement de rotation",
+      "question": "La relation fondamentale de la dynamique de rotation est :",
+      "options": [
+        "Somme(M) = J*alpha",
+        "Somme(F)=J*alpha",
+        "Somme(M)=m*a",
+        "P=J*omega"
+      ],
+      "correct": "A",
+      "explanation": "Autour d'un axe fixe, la somme des moments dynamiques vaut J alpha."
+    },
+    {
+      "id": 84,
+      "topic": "Systemes mecaniques oscillants",
+      "question": "Pour un oscillateur harmonique ideal, la periode propre depend de :",
+      "options": [
+        "Amplitude initiale uniquement",
+        "Parametres du systeme (m,k)",
+        "Couleur du ressort",
+        "Pression atmospherique seulement"
+      ],
+      "correct": "B",
+      "explanation": "Exemple ressort-masse: T=2pi*sqrt(m/k)."
+    },
+    {
+      "id": 85,
+      "topic": "Aspects energetiques des oscillations",
+      "question": "Dans un oscillateur non amorti, l'energie mecanique totale est :",
+      "options": [
+        "Toujours nulle",
+        "Strictement croissante",
+        "Conservee",
+        "Strictement decroissante"
+      ],
+      "correct": "C",
+      "explanation": "Sans dissipation, l'energie mecanique reste constante."
+    },
+    {
+      "id": 86,
+      "topic": "Evolution spontanee d'un systeme chimique",
+      "question": "L'evolution spontanee d'un systeme chimique se fait vers :",
+      "options": [
+        "Un etat impossible",
+        "Toujours reactifs purs",
+        "Temperature absolue nulle",
+        "Un etat d'equilibre"
+      ],
+      "correct": "D",
+      "explanation": "Le systeme evolue spontanement vers l'equilibre thermodynamique."
+    },
+    {
+      "id": 87,
+      "topic": "Piles et production d'energie",
+      "question": "Dans une pile qui debite, l'energie chimique est convertie en :",
+      "options": [
+        "Energie electrique",
+        "Energie nucleaire",
+        "Energie lumineuse uniquement",
+        "Aucune energie"
+      ],
+      "correct": "A",
+      "explanation": "Une pile transforme une energie chimique en energie electrique."
+    },
+    {
+      "id": 88,
+      "topic": "Esterification et hydrolyse",
+      "question": "L'esterification entre un acide carboxylique et un alcool forme :",
+      "options": [
+        "Un acide fort",
+        "Un ester et de l'eau",
+        "Un sel uniquement",
+        "Du dioxygene"
+      ],
+      "correct": "B",
+      "explanation": "Reaction classique: acide carboxylique + alcool <-> ester + eau."
+    },
+    {
+      "id": 89,
+      "topic": "Ondes mecaniques progressives",
+      "question": "Une perturbation parcourt 199 m en 5 s. La vitesse de propagation vaut :",
+      "options": [
+        "0.025",
+        "995",
+        "39.8",
+        "194"
+      ],
+      "correct": "C",
+      "explanation": "La vitesse de propagation est v=d/t."
+    },
+    {
+      "id": 90,
+      "topic": "Ondes mecaniques progressives periodiques",
+      "question": "Pour une onde periodique de frequence f=5 Hz, la periode T vaut :",
+      "options": [
+        "5",
+        "2.5",
+        "0.4",
+        "0.2"
+      ],
+      "correct": "D",
+      "explanation": "T=1/f."
+    },
+    {
+      "id": 91,
+      "topic": "Propagation des ondes lumineuses",
+      "question": "Dans un milieu d'indice n=4.2, la vitesse de la lumiere vaut :",
+      "options": [
+        "v=c/n",
+        "v=c*n",
+        "v=n/c",
+        "v=c+n"
+      ],
+      "correct": "A",
+      "explanation": "Dans un milieu transparent: v=c/n."
+    },
+    {
+      "id": 92,
+      "topic": "Transformations nucleaires",
+      "question": "Lors d'une desintegration beta-, il y a emission de :",
+      "options": [
+        "Un positon et un neutrino",
+        "Un electron et un antineutrino",
+        "Un proton",
+        "Un photon gamma uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La beta- emet e- et antineutrino electronique."
+    },
+    {
+      "id": 93,
+      "topic": "Noyau (masse et energie)",
+      "question": "La relation entre defaut de masse et energie de liaison est :",
+      "options": [
+        "E=dm/c^2",
+        "E=dm*c",
+        "E=dm*c^2",
+        "E=dm+mc^2"
+      ],
+      "correct": "C",
+      "explanation": "Relation d'Einstein: E=dm c^2."
+    },
+    {
+      "id": 94,
+      "topic": "Dipole RC",
+      "question": "Pour R=5000 ohm et C=3e-06 F, la constante de temps tau vaut :",
+      "options": [
+        "1666666666.667",
+        "0",
+        "5000",
+        "0.015"
+      ],
+      "correct": "D",
+      "explanation": "Pour un dipole RC, tau=RC."
+    },
+    {
+      "id": 95,
+      "topic": "Dipole RL",
+      "question": "Pour L=0.6000000000000001 H et R=10 ohm, la constante de temps tau vaut :",
+      "options": [
+        "0.06",
+        "6",
+        "16.667",
+        "10.6"
+      ],
+      "correct": "A",
+      "explanation": "Pour un dipole RL, tau=L/R."
+    },
+    {
+      "id": 96,
+      "topic": "Oscillations libres d'un circuit RLC",
+      "question": "Dans un circuit RLC libre faiblement amorti, la tension est :",
+      "options": [
+        "Strictement constante",
+        "Pseudo-periodique amortie",
+        "Lineaire croissante",
+        "Exponentielle pure non oscillante"
+      ],
+      "correct": "B",
+      "explanation": "Le regime libre sous-amorti donne des oscillations amorties."
+    },
+    {
+      "id": 97,
+      "topic": "Transformations lentes et rapides",
+      "question": "Une transformation est dite quasi-statique lorsqu'elle est :",
+      "options": [
+        "Instantanee",
+        "Toujours irreversible",
+        "Suffisamment lente",
+        "Toujours adiabatique"
+      ],
+      "correct": "C",
+      "explanation": "Une evolution lente permet de passer par des etats d'equilibre successifs."
+    },
+    {
+      "id": 98,
+      "topic": "Suivi temporel et vitesse de reaction",
+      "question": "La vitesse volumique de reaction s'exprime generalement en :",
+      "options": [
+        "J.s^-1",
+        "m.s^-1",
+        "kg.m^-3",
+        "mol.L^-1.s^-1"
+      ],
+      "correct": "D",
+      "explanation": "La vitesse de reaction est une variation de concentration par unite de temps."
+    },
+    {
+      "id": 99,
+      "topic": "Transformations chimiques reversibles",
+      "question": "Une reaction reversible est caracterisee par :",
+      "options": [
+        "Deux sens direct et inverse",
+        "Un seul sens",
+        "Une vitesse nulle",
+        "Absence de reactifs"
+      ],
+      "correct": "A",
+      "explanation": "La reaction peut evoluer dans les deux sens."
+    },
+    {
+      "id": 100,
+      "topic": "Etat d'equilibre d'un systeme chimique",
+      "question": "A l'equilibre chimique, on a :",
+      "options": [
+        "reactifs nuls",
+        "vitesse_directe = vitesse_inverse",
+        "produits nuls",
+        "temperature nulle"
+      ],
+      "correct": "B",
+      "explanation": "L'equilibre dynamique correspond a l'egalite des vitesses."
+    }
+  ],
+  "SVT": [
+    {
+      "id": 1,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 2,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 3,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 4,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 5,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 6,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 7,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 8,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 9,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 10,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 11,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 12,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 13,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 14,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 15,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 16,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 17,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 18,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 19,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 20,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 21,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 22,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 23,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 24,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 25,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 26,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 27,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 28,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 29,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 30,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 31,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 32,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 33,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 34,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 35,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 36,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 37,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 38,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 39,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 40,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 41,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 42,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 43,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 44,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 45,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 46,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 47,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 48,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 49,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 50,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 51,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 52,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 53,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 54,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 55,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 56,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 57,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 58,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 59,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 60,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 61,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 62,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 63,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 64,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 65,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 66,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 67,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 68,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 69,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 70,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 71,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 72,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 73,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 74,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 75,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 76,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 77,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 78,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 79,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 80,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 81,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 82,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 83,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 84,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 85,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 86,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 87,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 88,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 89,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Absence de mouvements",
+        "Evaporation des oceans",
+        "Convergence de plaques lithospheriques"
+      ],
+      "correct": "D",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 90,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Production d'anticorps",
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "A",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 91,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "ATP",
+        "Uree",
+        "Acide lactique uniquement"
+      ],
+      "correct": "B",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 92,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Transcription puis traduction",
+        "Traduction puis replication"
+      ],
+      "correct": "C",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 93,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Absence de recombinaison",
+        "Suppression totale des genes",
+        "Brassage inter et intrachromosomique"
+      ],
+      "correct": "D",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 94,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Accouplements au hasard",
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Population tres petite"
+      ],
+      "correct": "A",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    },
+    {
+      "id": 95,
+      "topic": "Formation des chaines de montagnes et tectonique des plaques",
+      "question": "La formation des chaines de montagnes est souvent liee a :",
+      "options": [
+        "Divergence oceanique",
+        "Convergence de plaques lithospheriques",
+        "Absence de mouvements",
+        "Evaporation des oceans"
+      ],
+      "correct": "B",
+      "explanation": "La convergence (collision/subduction) induit deformation et surrection."
+    },
+    {
+      "id": 96,
+      "topic": "Immunologie",
+      "question": "Les lymphocytes B sont principalement responsables de :",
+      "options": [
+        "Phagocytose rapide",
+        "Contraction musculaire",
+        "Production d'anticorps",
+        "Synthese de chlorophylle"
+      ],
+      "correct": "C",
+      "explanation": "Les LB se differencient en plasmocytes secreteurs d'anticorps."
+    },
+    {
+      "id": 97,
+      "topic": "Consommation de la matiere organique et flux d'energie",
+      "question": "Au niveau cellulaire, la respiration permet principalement de produire :",
+      "options": [
+        "ADN",
+        "Uree",
+        "Acide lactique uniquement",
+        "ATP"
+      ],
+      "correct": "D",
+      "explanation": "La respiration cellulaire transfere l'energie vers l'ATP."
+    },
+    {
+      "id": 98,
+      "topic": "Expression du materiel genetique et genie genetique",
+      "question": "L'expression d'un gene comporte principalement :",
+      "options": [
+        "Transcription puis traduction",
+        "Replication puis mitose",
+        "Meiose puis fecondation",
+        "Traduction puis replication"
+      ],
+      "correct": "A",
+      "explanation": "L'ADN est transcrit en ARNm puis traduit en proteine."
+    },
+    {
+      "id": 99,
+      "topic": "Transfert de l'information genetique et genetique humaine",
+      "question": "La meiose contribue a la diversite genetique car elle provoque :",
+      "options": [
+        "Copie identique stricte",
+        "Brassage inter et intrachromosomique",
+        "Absence de recombinaison",
+        "Suppression totale des genes"
+      ],
+      "correct": "B",
+      "explanation": "Le crossing-over et l'assortiment independant brassent les alleles."
+    },
+    {
+      "id": 100,
+      "topic": "Variation et genetique des populations",
+      "question": "Dans le modele de Hardy-Weinberg, une condition est :",
+      "options": [
+        "Selection naturelle forte",
+        "Mutation tres elevee",
+        "Accouplements au hasard",
+        "Population tres petite"
+      ],
+      "correct": "C",
+      "explanation": "L'equilibre de Hardy-Weinberg suppose notamment panmixie et grande population."
+    }
+  ]
+}
